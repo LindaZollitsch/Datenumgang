@@ -43,7 +43,7 @@ alert("Disclaimer: Please note that you are leaving the CAU net once you open th
 Wir möchten mit Ihnen erreichen, dass Sie am Ende des Workshops ...
 
 * ... erläutern können, was Speicherung von Daten ist.  
-* ... erlätern können, was Backup von Daten ist.
+* ... erläutern können, was Backup von Daten ist.
 * ... den Unterschied zwischen Speicherung und Backup erklären.
 
 
@@ -61,10 +61,12 @@ Wir möchten mit Ihnen erreichen, dass Sie am Ende des Workshops ...
 * Daten veröffentlichen
 
 
-## Datenspeicherung Einführung
+# Datenspeicherung: Einführung
 
+## Überlegung
 
 {{0-1}}
+****************
 Wo und wie speichern wir unsere Forschungsdaten?
 ---
 
@@ -72,64 +74,6 @@ Wo und wie speichern wir unsere Forschungsdaten?
   <img src="images/backup.png" alt="No back up? No mercy!">
 </div>
 
-
-{{1-3}}
-****************
-> **Unterschiedliche Speichermedien haben Vor- und Nachteile...**
-
-****************
-
-{{2-3}}
-****************
-> **...beispielsweise bzgl. der Lebensdauer**:
-
-![Lebensdauer](https://forschungsdaten.info/fileadmin/kooperationen/bwfdm/fdm/2-organisieren-und-aufbereiten/2-lebensdauer-von-daten/lebensdauer.png)
-
-****************
-
-<div style="page-break-after: always;"></div>
-
-
-{{3-4}}
-****************
-> **Grundsätzlich immer auch an ein Backup denken!**
->
->- min. 3 Kopien einer Datei
->- min. 2 verschiedene Medien
->- von denen min. ein Medium remote ist
->- Backup in regelmäßigen Intervallen
-
-****************
-
-{{4}}
-*****************
-Besondere Aufmerksamkeit bei sensiblen Daten:
----
-
-> **Schützen Sie sensible Daten!**
->
->- Hardware (z. B. in einem abschießbaren Raum gelagert)
->- Dateiverschlüsselung
->- Passwortsicherheit
->- Mindestens zwei Personen sollten Zugang zu Ihren Daten haben
-
-*****************
-
-<div style="page-break-after: always;"></div>
-
-### Backup vs. Langzeitarchivierung
-
-| Back up                                                                          | Langzeit Speicherung            |
-| -------------------------------------------------------------------------------- | ----------------------------- |
-| Automatisches Backup von allen Daten   | Speicherung von ausgewählten Daten |
-| All Versionen                                                                     | Nur die finale Version            |
-|   zur Verhinderung von Datenverlust <br>(technisch, z.B. Defekt, oder menschlich, z.B. versehentlich gelöscht) | Integritätssicherung <br> (z. B. regelmäßige Überprüfung auf modifizierte oder beschädigte Daten, <br>Dateisystemkonsistenz)      |
-|                                                                                  | Langzeitspeicherung             |
-|                                                                                  | Durchsuchbar                 |
-
-<div style="page-break-after: always;"></div>
-
-### Datenspeicherung wo?
 
 Eigener PC
 Mobiles Speicherbedium 
@@ -142,17 +86,86 @@ Institutionelle Speicherorte
 
 Externe Speicherorte (Cloud eines Anbieters)
 
+****************
 
 
-## Datenspeicherung in der CAU-Cloud
+{{1-3}}
+****************
+> **Unterschiedliche Speichermedien haben Vor- und Nachteile...**
+
+
+> **...beispielsweise bzgl. der Lebensdauer**:
+
+![Lebensdauer](https://forschungsdaten.info/fileadmin/kooperationen/bwfdm/fdm/2-organisieren-und-aufbereiten/2-lebensdauer-von-daten/lebensdauer.png)
+
+
+****************
+
+{{2-3}}
+****************
+
+**Risiken**
+
+Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
+
+**Strategien**
+
+Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
+
+****************
+
+<div style="page-break-after: always;"></div>
+
+{{3-4}}
+****************
+
+## 3-2-1 Regel
+
+Mindestens 3 Kopien der Daten
+
+... auf mindestens 2 unterschiedlichen Speichermedien
+
+... wovon mindestens 1 Kopie dezentral ist.
+
+Datenwiederherstellung zu Beginn sowie in regelmäßigen Abständen testen!
+
+## Sensible Daten
+
+Besondere Aufmerksamkeit bei sensiblen Daten:
+
+> **Schützen Sie sensible Daten!**
+>
+>- Hardware (z. B. in einem abschießbaren Raum gelagert)
+>- Dateiverschlüsselung
+>- Passwortsicherheit
+>- Mindestens zwei Personen sollten Zugang zu den Daten haben
+
+
+<div style="page-break-after: always;"></div>
+
+
+## Backup vs. Langzeitarchivierung
+
+| Back up                                                                          | Langzeit Speicherung            |
+| -------------------------------------------------------------------------------- | ----------------------------- |
+| Automatisches Backup von allen Daten   | Speicherung von ausgewählten Daten |
+| All Versionen                                                                     | Nur die finale Version            |
+|   zur Verhinderung von Datenverlust <br>(technisch, z.B. Defekt, oder menschlich, z.B. versehentlich gelöscht) | Integritätssicherung <br> (z. B. regelmäßige Überprüfung auf modifizierte oder beschädigte Daten, <br>Dateisystemkonsistenz)      |
+|                                                                                  | Langzeitspeicherung             |
+|                                                                                  | Durchsuchbar                 |
+
+<div style="page-break-after: always;"></div>
 
 
 
-## Daten mit anderen teilen
+# Datenspeicherung: in der CAU-Cloud
 
-## Daten veröffentlichen
 
-## Speicherung & Backup
+
+# Daten mit anderen teilen
+
+# Daten veröffentlichen
+
 
 
 
