@@ -66,14 +66,16 @@ Lernende können ...
 
 ## Vorgedanken
 
+<div style="float:right; width:40%;">
+  <img src="/images/backup.png" alt="No back up? No mercy!">
+</div>
+
+
 {{0-1}}
 ****************
 Wo und wie speichern wir unsere Forschungsdaten?
 
 
-<div style="float:right; width:40%;">
-  <img src="/images/backup.png" alt="No back up? No mercy!">
-</div>
 ****************
 
 {{1-2}}
@@ -82,10 +84,12 @@ Wo und wie speichern wir unsere Forschungsdaten?
 Eigener PC
 
 Mobiles Speichermedium 
+
   USB-Stick
   Externe Festplatte
 
 Institutionelle Speicherorte
+
   Cloud
   Virtuelle Laufwerke
 
@@ -97,6 +101,30 @@ Externe Speicherorte (Cloud eines Anbieters)
 
 
 {{1-2}}
+****************
+
+
+``` ascii
++-----------------++
+|                 ||
+| Eigener PC      || 
+|                 ||           +-----------------++
++-----------------++           | Mobile          ||
+                               | Speichermedien  ||
+                               +-----------------++
++-----------------++
+|                 ||                    +-----------------++
+| Institutionelle ||                    |                 ||
+| Speicherorte    ||                    | Externe         ||
++-----------------++                    | Speicherorte    ||
+                                        +-----------------++ 
+
+```
+
+
+****************
+
+{{2}}
 ****************
 
 
@@ -132,7 +160,9 @@ Externe Speicherorte (Cloud eines Anbieters)
 
 ****************
 
-{{2-3}}
+## Cloudlösungen
+
+{{1-2}}
 ****************
 
 Beispiel Cloudlösung
@@ -148,7 +178,7 @@ Beispiel Cloudlösung
 
 ****************
 
-{{3}}
+{{2}}
 ****************
 Beispiele von zertifizierten Cloudlösungen
 
