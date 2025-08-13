@@ -197,9 +197,10 @@ style="
   background-color: #fee1ff;
   stroke: #9a047f;" -->
 ``` ascii
-.--------------------+-----------------------.
-| Speichermedium     | Lebensdauer in Jahren |
-.--------------------+-----------------------. 
+.--------------------+-------------.
+| Speichermedium     | Lebensdauer |
+|                    |  in Jahren  |
+.--------------------+-------------. 
 
 .--------------------+------+------.
 | Externe Festplatte |   5  |  10  |
@@ -220,50 +221,6 @@ style="
 .--------------------+------+------. 
 
 ```
-
-<!--
-style="
-  max-width: 500px;
-  background-color: #fee1ff;
-  stroke: #9a047f;" -->
-``` ascii
-.--------------------+------+------.
-| Speichermedium     | von  | bis  |
-.--------------------+------+------. 
-
-.--------------------.  .------.  .------.
-| Externe Festplatte |  |  5   |  | 10   |
-.--------------------.  .------.  .------. 
-| Festplatte HDD    |  |  3   |  |  5   | 
-.-------------------.  .------.  .------.
-| Festplatte SSD    |  |  5   |  | 10   |
-.-------------------.  .------.  .------. 
-| SD-Speicherkarte  |  | 10   |  | 30   |
-.-------------------.  .------.  .------. 
-| USB-Stick         |  | 10   |  | 30   |
-.-------------------.  .------.  .------. 
-| CD/DVD gebrannt   |  |  5   |  | 10   |
-.-------------------.  .------.  .------. 
-| CD/DVD gepresst   |  | 10   |  | 30   |
-.-------------------.  .------.  .------. 
-| Blu-ray           |  | 30   |  | 80   |
-.-------------------.  .------.  .------. 
-
-```
-
-
-<!-- data-type="none" -->
-| Speichermedium       | von | bis |
-| -------------------- | ---:| ---:|
-| externe Festplatte   |  5  | 10  |
-| Festplatte HDD       |  3  |  5  |
-| Festplatte SSD       |  5  | 10  |
-| SD-Speicherkarte     | 10  | 30  |
-| USB-Stick            | 10  | 30  |
-| CD/DVD gebrannt      |  5  | 10  |
-| CD/DVD gepresst      | 10  | 30  |
-| Blu-ray              | 30  | 80  |
-
 
 in Abhängigkeit von:
 
