@@ -194,7 +194,7 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 ![Lebensdauer](/images/Lebensdauer.png)
 
 
-<!-- data-type="BarChart" -->
+<!-- data-type="none" -->
 | Speichermedium       | von | bis |
 | -------------------- | ---:| ---:|
 | externe Festplatte   |  5  | 10  |
@@ -355,17 +355,6 @@ https://opendata.schleswig-holstein.de/dataset
 
 
 
-
-
-
-# Erste Schritte im FDM
-
-Wir werden uns eine Auswahl an Themenaspekten etwas näher anschauen:
-
-* Dateibenennung & Versionierung
-* Dokumentation von Forschungsdaten 
-* Nachnutzung von Forschungsdaten
-
 <div style="page-break-after: always;"></div>
 
 ## Ordner- und Dateibenennung
@@ -383,21 +372,7 @@ Wir werden uns eine Auswahl an Themenaspekten etwas näher anschauen:
 
 ********************************************************************************
 
-{{1-2}}
-********************************************************************************
-<img src="images/Dateibenennung_bad.png" alt="comic"  style="float:right"/>
-
-* Haben Sie sich schon mal über sich selbst geärgert, weil Sie bestimmte Dateien nicht oder nur mit großem Aufwand finden konnten?
-
-* Sind Ihnen vielleicht sogar schon mal Daten verloren gegangen, weil Dateien versehentlich überschrieben wurden?
-
----
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-{{2}}
+{{1}}
 ********************************************************************************
 
 Ordner und Dateien sollten systematisch benannt und geordnet sein, damit
@@ -411,7 +386,6 @@ Ordner und Dateien sollten systematisch benannt und geordnet sein, damit
 
 ********************************************************************************
 
-<div style="page-break-after: always;"></div>
 
 ### Ordnerstrukturen
 
@@ -440,7 +414,7 @@ Folgende Punkte können bei der Erstellung einer nachvollziehbaren Ordnerstruktu
 
 ********************************************************************************
 
-{{1-2}}
+{{1}}
 ********************************************************************************
 
 Es gilt außerdem:
@@ -452,15 +426,6 @@ Es gilt außerdem:
 
 ********************************************************************************
 
-{{2}}
-********************************************************************************
-Beispiel Ordnerstruktur:
-
-<img src="/images/Abb_OrdnerstrukturArchproject_2022_bp.png" width="350">
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
 
 ### Dateibenennung
 {{0-1}}
@@ -485,7 +450,7 @@ Folgende Punkte können bei der Erstellung nachvollziehbarer Dateinamen helfen:
 * Datumsangaben nach der ISO 8601 (YYYYMMDD oder YYYY-MM-DD oder YYYY_MM_DD)
 ********************************************************************************
 
-{{1-2}}
+{{1}}
 ********************************************************************************
 
 **Es gilt außerdem:**
@@ -498,15 +463,6 @@ Folgende Punkte können bei der Erstellung nachvollziehbarer Dateinamen helfen:
 
 ********************************************************************************
 
-{{2}}
-********************************************************************************
-Beispiele für Benennungskonventionen:
-
-<img src="/images/Abb_Beispiele-Benennungskonvention_2022_bp.png">
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
 
 ### Versionierung
 
@@ -559,7 +515,7 @@ Die Versionierung kann als Bestandteil des Dateinamens definiert werden und dabe
 ********************************************************************************
 <div style="page-break-after: always;"></div>
 
-{{3-4}}
+{{3}}
 ********************************************************************************
 
 **Beispiel für eine Versionskontrolltabelle**
@@ -576,369 +532,7 @@ Eine Versionskontrolltabelle kann innerhalb des bearbeiteten Dokuments oder als 
 ********************************************************************************
 <div style="page-break-after: always;"></div>
 
-{{4-5}}
-********************************************************************************
-**Beispiel für eine Versionsinformation innerhalb eines Dokuments:**
-<img src="/images/versionsdoku-beispiel-rda_2.png">
 
-********************************************************************************
-
-{{5}}
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-**Beispiel eines dokumentierten Versionierungsschemas:**
-
-<img src="/images/OstData_Versionierungsschema.png">
-
-https://zenodo.org/record/6076538#.Y4pE63bMJPa
-
-********************************************************************************
-<div style="page-break-after: always;"></div>
-
-
-
-### Forschungsdaten zitieren
-
-Im Sinne der guten wissenschaftlichen Praxis müssen Forschungsdaten wie jede andere Quelle eindeutig zitiert werden.
-
-Verschiedene Gruppen und wissenschaftliche Communities haben sich damit beschäftigt, Guidelines und Empfehlungen zur Zitation von Forschungsdaten zu erstellen. 
-
-Hervorzuheben sind hier insbesondere die Empfehlung der Initiative [**Force11**](https://force11.org/) sowie des internationalen Registrierungsservice [**DataCite**](https://schema.datacite.org/).
-
-Es existiert (noch) kein einheitlicher Standard für Datenzitationen.
-
->- **Nach FORCE11-Empfehlung**: Autor:in(nen) (Publikationsjahr): Titel der Forschungsdaten. Datenrepositorium oder Archiv. Version. Weltweit persistenter Identifikator (vorzugsweise als Link)
-
->- **Nach DataCite 2013**: Urheber:in (Veröffentlichungsdatum): Titel. Version. Publikationsagent. Genereller Ressourcentyp. Identifikator
-
----
-
-<div style="page-break-after: always;"></div>
-
-
-{{1}}
-********************************************************************************
->**Aufgabe**: 
->
->Zitieren Sie folgende Publikation nach FORCE11-Empfehlung: http://dx.doi.org/10.13140/RG.2.2.34005.12001 
-
-********************************************************************************
-
-{{2}}
-********************************************************************************
->**Lösung**:
->
->Risan, Patrick (2017): Accommodating Trauma in Police Interviews. An Exploration of Rapport in Investigative Interviews of Traumatized Victims. NSD - Norwegian Centre for Research Data. https://doi.org/10.13140/RG.2.2.34005.12001
-
-********************************************************************************
-
-{{3}}
-********************************************************************************
->Für die Identifikation von elektronischen Textpublikationen existieren mittlerweile diverse Systeme von persistenten Identifikatoren. 
->
->Die ZBW nennt eine Reihe von existierenden Identifikatoren: https://auffinden-zitieren-dokumentieren.de/zitieren/ 
->
->**Welches ist laut des ZBW-Artikels das am häufigsten verwendete System für persistente Identifikatoren?**
-
-[[ ]] Archival Research Key (ARK)
-[[x]] Digital Object Identifier (DOI)
-[[ ]] Handle
-[[ ]] Persistent URL (PURL)
-[[ ]] Uniform Resource Name (URN) 
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-### Rechtslage einschätzen 
-
-Um einschätzen zu können, ob und in welcher Form Datensätze und sonstige Materialien nachgenutzt werden dürfen, sollten Lizenzsysteme bekannt sein.
-
-Durch freie Lizenzen wird die Nutzung eines urheberrechtlich geschützten Inhalts nachnutzenden erlaubt. Dabei können Einschränkungen in Hinblick auf den die Verbreitung von Bearbeitungen und Veränderungen oder in Bezug auf die Modalitäten einer weiteren Veröffentlichung bestehen. 
-
-Die am häufigsten verwendeten Lizenzen sind:
-
-- Creative Commons (CC) / für Texte, Abbildungen und Daten geeignet
-- GNU General Public License (GPL) / für Software konzipiert
-- Open Data Commons (ODC) / für Datenbanken konzipiert
-- Community Data License Agreement / für Daten konzipiert
-
-Das hierunter bekannteste Lizenzsystem sind die [Creative Commons Lizenzen](https://de.creativecommons.net/was-ist-cc/):
-
-<div style="width:75%;">
-![CCLizenzen](https://herrmayr.de/wp-content/uploads/2019/12/%C3%9Cbersicht_CC_Lizenzen-1024x529.png "Die Creative Commons Lizenzen im Überblick (Quelle: Symbole von Creative Commons Schweiz CC BY 4.0; Tabelle von Burgert/TU München CC BY 4.0)")
-</div>
-
-Informationen auf forschungsdaten.info: https://forschungsdaten.info/themen/rechte-und-pflichten/forschungsdaten-veroeffentlichen/creative-commons-lizenzen/
-
----
-<div style="page-break-after: always;"></div>
-
-{{1}}
-********************************************************************************
-
-
-
-
-
-
-
-# Orientierung im Themenbereich FDM
-
-<!---
-Orientierung im Themenbereich FDM, Grundbegriffe im FDM
-
-Lernziele (LZM-FDM):
-Lernende können	den Begriff Forschungsdaten	erläutern.(LZ-ID: 01_001_0007)
-
-Lernende können	Beispiele für Forschungsdaten	benennen. (LZ-ID: 01_001_0008)
-
-Lernende können Themen im Forschungsdatenmanagement (FDM) benennen. (neu)
-
---->
-
-Der Themenbereich Forschungsdatenmanagement ist komplex. 
-
-Wir wollen uns dem Themenbereich erstmal vorsichtig nähern...
-
-
-## Begriffsdefinition Forschungsdatenmanagement
-
-{{1}}
-********************************************************************************
-Das Portal **Forschungsdaten.info** definiert den Begriff **"Forschungsdatenmanagement"** folgendermaßen:
-
-> Forschungsdatenmanagement (FDM) umfasst die Prozesse der **Transformation**, **Selektion** und **Speicherung** von Forschungsdaten mit dem gemeinsamen **Ziel**, diese *langfristig* und *personenunabhängig* **zugänglich**, **nachnutzbar** und **nachprüfbar** zu halten.
->
->(*forschungsdaten.info, letzter Zugriff 29.11.2022*)
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-## Begriffsdefinition Forschungsdaten
-
-**Und was sind Forschungsdaten?**
-
-{{2}}
-********************************************************************************
-Die **DFG** definiert den Begriff **"Forschungsdaten"** folgendermaßen:
-
-> „Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen. Korpora und Simulationen können ebenfalls zentrale Ergebnisse wissenschaftlicher Forschung darstellen und werden daher ebenfalls unter den Begriff Forschungsdaten gefasst. Da Forschungsdaten in einigen Fachbereichen auf der Analyse von Objekten basieren (z. B. Gewebe-, Material-, Gesteins-, Wasser- und Bodenproben, Prüfkörper, Installationen, Artefakte und Kunstgegenstände), muss der Umgang mit diesen ebenso sorgfältig sein und eine fachlich adäquate Nachnutzungsmöglichkeit, wann immer sinnvoll und möglich, mitgedacht werden. Ähnliches gilt, wenn Software für die Entstehung oder Verarbeitung von Forschungsdaten erforderlich ist.“
->
-> (*DFG 2021*)
-
-********************************************************************************
-
-{{3}}
-********************************************************************************
-
-Etwas weniger kompliziert definierte das PrePARe Projekt der Camebridge University den Begriff **Forschungsdaten** als:
-
-> “Any any information you use in your research.”
->
-> (*University of Camebridge PrePARe Project*)
-
-********************************************************************************
-<div style="page-break-after: always;"></div>
-
-### Beispiele für Forschungsdaten
-
-<img src="/images/forschungsdatenBSP.png" width="350" align="right">
-
-- Audio- und Videoaufzeichnungen
-- Tagebücher
-- Daten aus geografischen Informationssystemen (GIS)
-- Labor- und Feldnotizen
-- Modell-, Skript- und Forschungssoftwarecode
-- Bilder und Abbildungen
-- Fragebögen und Codebücher
-- Proben und Artefakte
-- Sensor-Daten
-- Sequenzierdaten
-- Spektren
-- Text- und Tabellenkalkulationsdokumente
-- Textkorpora und Annotationen
-- Topographie-Daten
-- Abschriften
-
-<div style="page-break-after: always;"></div>
-
-## Forschungsdatenlebenszyklus
-<!---
-Lernende können	Phasen des Forschungsdatenlebenszyklus	benennen. (LZ-ID: 01_005_0079)
---->
-
-<img src="/images/FDM_Zyklus_klein_ohneText.jpg" width="350" align="right">
-
-<P><SMALL>Illustration: Cleo Michelsen, basierend auf dem Forschungsdatenlebenszyklus des UK Data Service</SMALL></P>
-
-<div style="page-break-after: always;"></div>
-
-{{1}}
-********************************************************************************
-<img src="/images/Planung_fdm-zyklus_2022.png" width="150" align="right">
-
-**Planung**:
-
-* Auf welche Weise entstehen neue Daten?
-* Werden Daten wiederverwendet?
-* Welche Datentypen, im Sinne von Datenformaten (z. B. Bilddaten, Textdaten oder Messdaten in Tabellen) entstehen?
-* Welche Analysen sind geplant?
-* Welches Datenvolumen ist zu erwarten?
-* Welche rechtlichen und ethischen Aspekte müssen berücksichtigt werden?
-* Wer ist verantwortlich?
-
----
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-{{2}}
-********************************************************************************
-<img src="/images/erhebung-analyse_fdm-zyklus_2022.png" width="150" align="right">
-
-**Erhebung und Analyse**:
-
-* Welche Ansätze werden verfolgt, um die Daten nachvollziehbar zu dokumentieren?
-* Welche Maßnahmen werden getroffen, um eine hohe Qualität der Daten zu gewährleisten?
-* Welche digitalen Methoden und Werkzeuge (z. B. Software) sind zur Nutzung und Analyse der Daten erforderlich?
-* Auf welche Weise werden die Daten während der Projektlaufzeit gespeichert und gesichert?
-* Wie wird die Sicherheit sensibler Daten während der Projektlaufzeit gewährleistet (Zugriffs- und Nutzungsverwaltung)?
-
-********************************************************************************
----
-
-<div style="page-break-after: always;"></div>
-
-{{3}}
-********************************************************************************
-
-<img src="/images/veroeffentl-archiv_fdm-zyklus_2022.png" width="150" align="right">
-
-**Archivierung & Veröffentlichung**:
-
-* Welche rechtlichen Besonderheiten bestehen im Zusammenhang mit dem Umgang mit Forschungsdaten in dem Forschungsprojekt?
-* Sind Auswirkungen oder Einschränkungen in Bezug auf die spätere Veröffentlichung bzw. Zugänglichkeit zu erwarten?
-* Auf welche Weise werden nutzungs- und urheberrechtliche Aspekte sowie Eigentumsfragen berücksichtigt?
-* Existieren wichtige wissenschaftliche Kodizes bzw. fachliche Normen, die Berücksichtigung finden sollten?
-
----
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-{{4}}
-********************************************************************************
-
-<img src="/images/nachnutzung-fdm-zyklus_2022.png" width="150" align="right">
-
-**Nachnutzung**:
-
-* Welche Daten bieten sich für eine Nachnutzung besonders an?
-* Nach welchen Kriterien werden Forschungsdaten ausgewählt, um diese für die Nachnutzung durch andere zur Verfügung zu stellen?
-* Planen Sie die Archivierung Ihrer Daten in einer geeigneten Infrastruktur?
-* Falls ja, wie und wo? Gibt es Sperrfristen?
-* Wann sind die Forschungsdaten für Dritte nutzbar?
-
-********************************************************************************
-
-<div style="page-break-after: always;"></div>
-
-## FAIR-Prinzipien
-
-<!---
-Lernende können	die FAIR-Prinzipien	benennen. (LZ-ID: 01_007_0117)
-Lernende können	die FAIR-Prinzipien	erläutern. LZ-ID: 01_007_0118)
---->
-
-
-<img src="/images/fair2.jpg" width="250" align="right"> Illustration: Patrick Hochstenbach in Engelhardt, Claudia et. al. (2021).
-
-Ein wichtiges Ziel des strukturierten Foschungsdatenmanagements ist es, Daten langfristig und personenunabhängig zugänglich, nachnutzbar und nachprüfbar zu halten. 
-
-Die [**FAIR-Prinzpien**](https://www.nature.com/articles/sdata201618) dienen als Leitfaden für die Auswahl von Handlungsoptionen, die sicherstellen sollen, dass die im Rahmen von Forschung geschaffenen digitalen Artefakte auffindbar, zugänglich, interoperabel und wiederverwendbar sind.
-
-<div style="page-break-after: always;"></div>
-
-{{1}}
->**F**indable
-
-{{2-3}}
-****************
-Der erste Schritt bei der (Wieder-)Verwendung von Daten besteht darin, sie zu finden. Metadaten und Daten sollten sowohl für Menschen als auch für Computer leicht zu finden sein. Maschinenlesbare Metadaten sind für das automatische Auffinden von Datensätzen und Diensten unerlässlich und daher ein wesentlicher Bestandteil des FAIRification-Prozesses.
-
-F1. (Meta)data are assigned a globally unique and persistent identifier
-
-F2. Data are described with rich metadata (defined by R1 below)
-
-F3. Metadata clearly and explicitly include the identifier of the data they describe
-
-F4. (Meta)data are registered or indexed in a searchable resource
-
-***************
-
-
-{{1}}
->**A**ccessible
-
-{{3-4}}
-***********************
-Sobald der Nutzer die gewünschten Daten gefunden hat, muss er wissen, wie er auf sie zugreifen kann, möglicherweise einschließlich Authentifizierung und Autorisierung.
-
-A1. (Meta)data are retrievable by their identifier using a standardised communications protocol
-
-A1.1 The protocol is open, free, and universally implementable
-
-A1.2 The protocol allows for an authentication and authorisation procedure, where necessary
-
-A2. Metadata are accessible, even when the data are no longer available
-
-******************
-
-<div style="page-break-after: always;"></div>
-
-{{1}}
->**I**nteroperable
-
-{{4-5}}
-**********************
-Daten sollten in einer Form vorliegen, die die Nutzung mit diversen Anwendungen oder Arbeitsabläufen für die Analyse, Speicherung und Verarbeitung ermöglichen.
-
-I1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.
-
-I2. (Meta)data use vocabularies that follow FAIR principles
-
-I3. (Meta)data include qualified references to other (meta)data
-
-**********************
-
-{{1}}
->**R**eusable
-
-{{5-6}}
-***************
-Das Ziel von FAIR ist es, die Wiederverwendung von Daten zu optimieren. Um dies zu erreichen, sollten Metadaten und Daten gut dokumentiert und beschrieben sowie mit einer eindeutigen Angabe bzgl. der Nutzungsbedingungen (Lizenzen) versehen sein.
-
-R1. Meta(data) are richly described with a plurality of accurate and relevant attributes
-
-R1.1. (Meta)data are released with a clear and accessible data usage license
-
-R1.2. (Meta)data are associated with detailed provenance
-
-R1.3. (Meta)data meet domain-relevant community standards
-
-**************
-
-<div style="page-break-after: always;"></div>
-
-
-
-
-## Publikation
 
 
 ### Datenpublikation
@@ -1054,128 +648,3 @@ Beispiel:
 <div style="page-break-after: always;"></div>
 
 
-
-
-## Wrap Up
-
-{{0-1}}
-********************************************************************************
-
-<img src="/images/kurzberichte.png" width="150" align="right">
-
-**Wir schauen uns ein kurzes Video an. Dies verdeutlicht nochmal die Gründe, warum Forschungsdatenmanagement wichtig ist.**
-
-Movie time!
-
----
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-********************************************************************************
-<div style="page-break-after: always;"></div>
-
-
-{{1}}
-********************************************************************************
->**Gutes Forschungsdatenmanagement trägt bei zu ...**
->
-> - Reproduzierbarkeit von Ergebnissen (GWP)
-> - Rückverfolgbarkeit und Transparenz der Forschung (GWP)
-> - gute Auffindbarkeit von Daten, z. B. durch aussagekräftige Benennung und beschreibende Metadaten
-> - Wissenserhalt – Daten sollen unabhängig von einzelnen Menschen, Projekten oder Institutionen zugänglich sein (GWP)
-> - Erleichterung der Zusammenarbeit
-> - Vorbeugung von Datenverlusten
-> - Kostenersparnis, z. B. durch Nachnutzung statt neuer Erhebung
-> - Transfer der Daten in zukünftige Projekte
-> - Erhöhung der Sichtbarkeit der eigenen Arbeit durch Forschungsdatenzitation
-> - Erfüllung von Auflagen der Drittmittelgeber
-> - ….
-
-********************************************************************************
-<div style="page-break-after: always;"></div>
-
-
-
-# FDM an der CAU
-
-{{0-1}}
-***********
-
-<div style="width: 50%; float:right">
-![services](./images/cau-services.png)
-</div>
-
-website: https://www.fdm.uni-kiel.de/de
-
-e-mail: <a href="info@fdm.uni-kiel.de">info@fdm.uni-kiel.de  </a>
-
-***********
-
-{{1-2}}
-***********
-**Beratung**
-
-<div style="width: 20%; float:right">
-![working](./images/consultation.png)
-</div>
-
-* Antragsberatung
-
-* DMP Beratung
-
-* technische Beratung (Storage, Backup, Tools, usw.)
-
-* Unterstützung bei Peer Reviews
-
-* Hilfe bei der Datenpublikation
-***********
-
-{{2-3}}
-***********
-**Unterstützung bei Training & Lehre**
-
-<div style="width: 20%; float:right">
-![working](./images/training.png)
-</div>
-
-* Workshops
-
- * beim Graduate Center, Wissenschaftliche Weiterbildung
- * kleine Gruppen
- * unterschiedliche Zielgruppen
- * grundsätzliche FDM-Grundlagen
- * Spezialisation, z.B. Einführung in Git (auf Anfrage)
-
-* technische Unterstützung auf Anfrage
-***********
-
-
-{{3}}
-***********
-**Kontakt**
-
-<div style="width: 20%; float:right">
-![team](./images/team.png)
-</div>
-
-Zögern Sie nicht, uns zu kontaktieren:
-
->**DMP Beratung:**
->
->Thilo Paul-Stüwe
->paul-stueve@rz.uni-kiel.de
->
->Andreas Christ
->christ@ub.uni-kiel.de 
-
->**Workshops & Lehrunterstützung:**
->
->Britta Petersen
->b.petersen@rz.uni-kiel.de 
->
->Linda Zollisch 
->zollitsch@ub-uni-kiel.de
-
-***********
