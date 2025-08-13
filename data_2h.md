@@ -53,7 +53,7 @@ Lernende können ...
 
 * Datenspeicherung und Backup: Einführung
 
-* Datenspeicherung: in der CAU-Cloud
+* Datenspeicherung in der CAU-Cloud
 
 * Daten mit anderen teilen (während der Arbeit daran)
 
@@ -105,7 +105,7 @@ Externe Speicherorte (Cloud eines Anbieters)
 +-----------------++---------------------------------------------++-----------------------------------------------+ 
 +-----------------++---------------------------------------------++-----------------------------------------------+
 |                 || Verantwortung & Sicherheit bei einem selbst || bei Verlust keine Datenrettung möglich        | 
-| eigener PC      || maximale Kontrolle                          ++ kooperatives Arbeiten Schwierig               |
+| Eigener PC      || maximale Kontrolle                          ++ kooperatives Arbeiten Schwierig               |
 |                 ||                                             ||                                               |
 +-----------------++---------------------------------------------++-----------------------------------------------+ 
 +-----------------++---------------------------------------------++-----------------------------------------------+
@@ -134,7 +134,7 @@ Externe Speicherorte (Cloud eines Anbieters)
 
 Beispiel Cloudlösung
 
-
+<!-- data-type="none" -->
 | Cloudanbeiter           | Herkunft  | Open Source | Datenspeicherung | DSGVO  |
 | ----------------------- | --------: | -----------:| ----------------:| ------:|
 | Dropbox                 | USA       | nein        | unbekannt        | (ja)   |
@@ -158,9 +158,9 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 > **Speichermedien haben unterschiedlich lange Lebensdauer**:
 
-![Lebensdauer](https://forschungsdaten.info/fileadmin/kooperationen/bwfdm/fdm/2-organisieren-und-aufbereiten/2-lebensdauer-von-daten/lebensdauer.png)
+![Lebensdauer]()
 
-<!-- data-type="PieChart" -->
+<!-- data-type="BarChart" -->
 | Speichermedium       | von | bis |
 | -------------------- | ---:| ---:|
 | externe Festplatte   |  5  | 10  |
@@ -250,7 +250,7 @@ Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
 Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
 
 
-# Datenspeicherung: in der CAU-Cloud
+# Datenspeicherung in der CAU-Cloud
 
 
 
