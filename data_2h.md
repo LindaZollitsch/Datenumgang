@@ -17,11 +17,14 @@ comment:  This document provides a brief introduction to data storage and backup
 
 # Datenumgang (Daten speichern und teilen)
 
+
+
 <script input="button">
-alert(„Haftungsausschluss: Bitte beachten Sie, dass Sie das CAU-Netzwerk verlassen, sobald Sie diese Präsentation in Ihrem Browser öffnen. Diese Präsentation enthält Links zu anderen Websites und Diensten von Drittanbietern. Diese Websites unterliegen nicht unserer Kontrolle. RDM@CAU ist nicht für den Inhalt der verlinkten Websites von Drittanbietern verantwortlich. Bitte beachten Sie, dass die Sicherheits- und Datenschutzrichtlinien dieser Websites von denen der CAU abweichen können. Bitte lesen Sie die Datenschutz- und Sicherheitsrichtlinien von Drittanbietern sorgfältig durch.“)
+alert("Disclaimer: Please note that you are leaving the CAU net once you open this presentation in your browser. This presentation includes links to other third party websites and services. These sites are not under our control. RDM@CAU is not responsible for the content of linked third party websites. Please be aware that the security and privacy policies on these sites may be different than CAU policies. Please read third party privacy and security policies closely.")
 
 "Disclaimer"
 </script>
+
 
 <center><img src="./images/fdm_lehre.png" alt="workshop, teaching" height="40%" width="40%"></center>
 
