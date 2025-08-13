@@ -23,7 +23,7 @@ alert(„Haftungsausschluss: Bitte beachten Sie, dass Sie das CAU-Netzwerk verla
 "Disclaimer"
 </script>
 
-<center><img src="images/fdm_lehre.png" alt="people standing in front of " height="40%" width="40%"></center>
+<center><img src="./images/fdm_lehre.png" alt="workshop, teaching" height="40%" width="40%"></center>
 
 <div style="page-break-after: always;"></div>
 
@@ -39,7 +39,7 @@ alert(„Haftungsausschluss: Bitte beachten Sie, dass Sie das CAU-Netzwerk verla
 
 ## Ziele dieses Workshops
 
-<img src="/images/targets.png" alt="Goals today" width="200" align="right">
+<img src="/images/nachnutzung-fdm-zyklus_2022.png" alt="Goals today" width="200" align="right">
 
 Lernende können ...
 
@@ -69,7 +69,7 @@ Wo und wie speichern wir unsere Forschungsdaten?
 
 
 <div style="float:right; width:40%;">
-  <img src="images/backup.png" alt="No back up? No mercy!">
+  <img src="/images/backup.png" alt="No back up? No mercy!">
 </div>
 ****************
 
@@ -158,7 +158,8 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 > **Speichermedien haben unterschiedlich lange Lebensdauer**:
 
-![Lebensdauer]()
+![Lebensdauer](/images/Lebensdauer.png)
+
 
 <!-- data-type="BarChart" -->
 | Speichermedium       | von | bis |
@@ -173,35 +174,12 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 | Blu-ray              | 30  | 80  |
 
 
-80 |                                                                  H
-   |
-   |
-   |
-   |
-   |
-   |
-   | 
-   |
-   |
-   |                           D       E                  G           h
-   |
-   |
-   | 
-10 |  A                C       d       e      F           g
-   |  a        B       c                      f
-0  +-----------------------------------------------------------------------------
-    ext.      HDD     SSD     SD      USB    CD/DVD      CD/DVD      Blu-ray
-    Festplatte                               gebrannt    gepresst                
-
-
 in Abhängigkeit von:
 
 * Temperatur
 * Feuchtigkeit
 * Beanspruchung
 * Lagerung
-
-
 
 
 ## 3-2-1 Regel
