@@ -1,7 +1,7 @@
 <!--
 
-author:   Britta Petersen, Linda Zollitsch
-email:    
+author:   Linda Zollitsch
+email:    zollitsch@ub.uni-kiel.de
 version:  0.1.0
 language: de
 narrator: UK English Female
