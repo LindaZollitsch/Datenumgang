@@ -36,35 +36,30 @@ alert(„Haftungsausschluss: Bitte beachten Sie, dass Sie das CAU-Netzwerk verla
 >
 > This work is licenced under CCBY (https://creativecommons.org/licenses/by/4.0/)
 
-<div style="page-break-after: always;"></div>
-
 
 ## Ziele dieses Workshops
 
 <img src="/images/targets.png" alt="Goals today" width="200" align="right">
 
-Wir möchten mit Ihnen erreichen, dass Sie am Ende des Workshops ...
+Lernende können ...
 
-* ... erläutern können, was Speicherung von Daten ist.  
-* ... erläutern können, was Backup von Daten ist.
-* ... den Unterschied zwischen Speicherung und Backup erklären.
-
-
-<div style="page-break-after: always;"></div>
+* ... allgemeine Anforderungen an Datenspeicherung benennen.
+* ... den Unterschied zwischen Speicherung und Backup erläutern.
+* ... Beispiele für Datenspeicherung benennen.
+* ... Risiken der Datenspeicherung bewerten.
 
 
+## Überblick
 
+* Datenspeicherung und Backup: Einführung
 
-# Forschungsdatenmanagement
-
-* Datenspeicherung und Backup Einführung
-* Datenspeicherung in der CAU-Cloud
+* Datenspeicherung: in der CAU-Cloud
 
 * Daten mit anderen teilen (während der Arbeit daran)
-* Daten veröffentlichen
 
 
-# Datenspeicherung: Einführung
+
+# Datenspeicherung und Backup: Einführung
 
 ## Vorgedanken
 
@@ -165,6 +160,40 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 ![Lebensdauer](https://forschungsdaten.info/fileadmin/kooperationen/bwfdm/fdm/2-organisieren-und-aufbereiten/2-lebensdauer-von-daten/lebensdauer.png)
 
+<!-- data-type="PieChart" -->
+| Speichermedium       | von | bis |
+| -------------------- | ---:| ---:|
+| externe Festplatte   |  5  | 10  |
+| Festplatte HDD       |  3  |  5  |
+| Festplatte SSD       |  5  | 10  |
+| SD-Speicherkarte     | 10  | 30  |
+| USB-Stick            | 10  | 30  |
+| CD/DVD gebrannt      |  5  | 10  |
+| CD/DVD gepresst      | 10  | 30  |
+| Blu-ray              | 30  | 80  |
+
+
+80 |                                                                  H
+   |
+   |
+   |
+   |
+   |
+   |
+   | 
+   |
+   |
+   |                           D       E                  G           h
+   |
+   |
+   | 
+10 |  A                C       d       e      F           g
+   |  a        B       c                      f
+0  +-----------------------------------------------------------------------------
+    ext.      HDD     SSD     SD      USB    CD/DVD      CD/DVD      Blu-ray
+    Festplatte                               gebrannt    gepresst                
+
+
 in Abhängigkeit von:
 
 * Temperatur
@@ -173,20 +202,6 @@ in Abhängigkeit von:
 * Lagerung
 
 
-
-
-
-
-## Zusammenfassung
-
-
-**Risiken**
-
-Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
-
-**Strategien**
-
-Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
 
 
 ## 3-2-1 Regel
@@ -211,9 +226,6 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 >- Mindestens zwei Personen sollten Zugang zu den Daten haben
 
 
-<div style="page-break-after: always;"></div>
-
-
 ## Backup vs. Langzeitarchivierung
 
 | Back up                                                                          | Langzeit Speicherung            |
@@ -224,8 +236,18 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 |                                                                                  | Langzeitspeicherung             |
 |                                                                                  | Durchsuchbar                 |
 
-<div style="page-break-after: always;"></div>
 
+
+## Zusammenfassung
+
+
+**Risiken**
+
+Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
+
+**Strategien**
+
+Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
 
 
 # Datenspeicherung: in der CAU-Cloud
@@ -234,7 +256,11 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 
 # Daten mit anderen teilen
 
-# Daten veröffentlichen
+Per Mail
+
+über die Cloud
+
+
 
 
 
