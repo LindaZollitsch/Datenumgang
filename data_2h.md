@@ -64,8 +64,6 @@ Lernende können ...
 
 # Datenspeicherung und Backup: Einführung
 
-## Vorgedanken
-
 <div style="float:right; width:40%;">
   <img src="/images/backup.png" alt="No back up? No mercy!">
 </div>
@@ -73,7 +71,7 @@ Lernende können ...
 
 {{0-1}}
 ****************
-Wo und wie speichern wir unsere Forschungsdaten?
+Wo und wie speichern wir unsere (Forschungs)Daten?
 
 
 ****************
@@ -109,10 +107,10 @@ Externe Speicherorte (Cloud eines Anbieters)
 |                 |
 | Eigener PC      |
 |                 |            +-----------------+
-+-----------------++           | Mobile          |
++-----------------+            | Mobile          |
                                | Speichermedien  |
                                +-----------------+
-+-----------------++
++-----------------+
 |                 |                    +-----------------+
 | Institutionelle |                    |                 |
 | Speicherorte    |                    | Externe         |
@@ -131,27 +129,27 @@ Externe Speicherorte (Cloud eines Anbieters)
 ``` ascii
 +-----------------++---------------------------------------------++-----------------------------------------------+
 |                 ||                                             ||                                               | 
-| Speichermedium  ||                 Vorteile                    ++                  Nachteile                    |
+| Speichermedium  ||                 Vorteile                    ||                  Nachteile                    |
 |                 ||                                             ||                                               |
 +-----------------++---------------------------------------------++-----------------------------------------------+ 
 +-----------------++---------------------------------------------++-----------------------------------------------+
 |                 || Verantwortung & Sicherheit bei einem selbst || bei Verlust keine Datenrettung möglich        | 
-| Eigener PC      || maximale Kontrolle                          ++ kooperatives Arbeiten Schwierig               |
+| Eigener PC      || maximale Kontrolle                          || kooperatives Arbeiten Schwierig               |
 |                 ||                                             ||                                               |
 +-----------------++---------------------------------------------++-----------------------------------------------+ 
 +-----------------++---------------------------------------------++-----------------------------------------------+
 |                 || leichter Transport                          || Verlust oder Diebstahl möglich                | 
-| Mobile          || Aufbewahrung im Safe möglich                ++ Inhalte separat verschlüsseln, da sonst       |
+| Mobile          || Aufbewahrung im Safe möglich                || Inhalte separat verschlüsseln, da sonst       |
 | Speichermedien  ||                                             || nicht geschützt                               |
 +-----------------++---------------------------------------------++-----------------------------------------------+ 
 +-----------------++---------------------------------------------++-----------------------------------------------+
 |                 || Backup & Wartung wird übernommen            || Möglicherweise langsam                        | 
-| Institutionelle || Datenschutz der Institution berücksichtigt  ++ Sicherheitsstrategien evtl. intransparent     |
+| Institutionelle || Datenschutz der Institution berücksichtigt  || Sicherheitsstrategien evtl. intransparent     |
 | Speicherorte    ||                                             ||                                               |
 +-----------------++---------------------------------------------++-----------------------------------------------+ 
 +-----------------++---------------------------------------------++-----------------------------------------------+
 |                 || Einfache Nutzung und Verwaltung             || Datenschutz unklar                            | 
-| Externe         || Backup und Wartung vorhanden                ++ Abhängigkeit von einem Anbieter               |
+| Externe         || Backup und Wartung vorhanden                || Abhängigkeit von einem Anbieter               |
 | Speicherorte    ||                                             ||                                               |
 +-----------------++---------------------------------------------++-----------------------------------------------+ 
 
@@ -192,6 +190,43 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 > **Speichermedien haben unterschiedlich lange Lebensdauer**:
 
 ![Lebensdauer](/images/Lebensdauer.png)
+
+
+
+``` ascii
+.--------------------.  .------.  .------.
+| Speichermedium     |  | von  |  | bis  |
+.--------------------.  .------.  .------. 
+
+.--------------------.  .------.  .------.
+| Externe Festplatte |  |  5   |  | 10   |
+.--------------------.  .------.  .------. 
+.-------------------.  .------.  .------.
+| Festplatte HDD    |  |  3   |  |  5   |
+.-------------------.  .------.  .------. 
+.-------------------.  .------.  .------.
+| Festplatte SSD    |  |  5   |  | 10   |
+.-------------------.  .------.  .------. 
+.-------------------.  .------.  .------.
+| SD-Speicherkarte  |  | 10   |  | 30   |
+.-------------------.  .------.  .------. 
+.-------------------.  .------.  .------.
+| USB-Stick         |  | 10   |  | 30   |
+.-------------------.  .------.  .------. 
+.-------------------.  .------.  .------.
+| CD/DVD gebrannt   |  |  5   |  | 10   |
+.-------------------.  .------.  .------. 
+.-------------------.  .------.  .------.
+| CD/DVD gepresst   |  | 10   |  | 30   |
+.-------------------.  .------.  .------. 
+.-------------------.  .------.  .------.
+| Blu-ray           |  | 30   |  | 80   |
+.-------------------.  .------.  .------. 
+
+
+```
+
+
 
 
 <!-- data-type="none" -->
