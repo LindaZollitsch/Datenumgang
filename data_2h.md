@@ -104,18 +104,17 @@ Externe Speicherorte (Cloud eines Anbieters)
 
 ``` ascii
 +-----------------+
-|                 |
-| Eigener PC      |
-|                 |            +-----------------+
+| Eigener PC      |            +-----------------+
 +-----------------+            | Mobile          |
                                | Speichermedien  |
                                +-----------------+
-+-----------------+
-|                 |                    +-----------------+
-| Institutionelle |                    |                 |
-| Speicherorte    |                    | Externe         |
-+-----------------+                    | Speicherorte    |
-                                       +-----------------+
+
+
++-----------------+                    +-----------------+                
+| Institutionelle |                    | Externe         |
+| Speicherorte    |                    | Speicherorte    |
++-----------------+                    +-----------------+
+                   
 
 ```
 
