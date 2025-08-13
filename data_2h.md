@@ -82,14 +82,13 @@ Wo und wie speichern wir unsere (Forschungs)Daten?
 Eigener PC
 
 Mobiles Speichermedium 
-
-  USB-Stick
-  Externe Festplatte
+    USB-Stick
+    Externe Festplatte
 
 Institutionelle Speicherorte
 
-  Cloud
-  Virtuelle Laufwerke
+    Cloud
+    Virtuelle Laufwerke
 
 Externe Speicherorte (Cloud eines Anbieters)
 
