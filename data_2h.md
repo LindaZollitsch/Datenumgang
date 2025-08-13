@@ -8,14 +8,17 @@ narrator: UK English Female
 
 icon:     images/Logo_cau-norm-de-lilagrey-rgb-0720_2022.png
 
-comment:  This document provides a brief introduction to research data management for lecturers. It provides an overview of rdm related topics as well as some didactic and methodologies for teaching rdm to students.
+link: https://raw.githubusercontent.com/RDM4CAU/Intro-to-RDM/refs/heads/main/cau-style.css
+
+
+comment:  This document provides a brief introduction to data storage and backup.
 
 -->
 
 # Datenumgang (Daten speichern und teilen)
 
 <script input="button">
-alert("Disclaimer: Please note that you are leaving the CAU net once you open this presentation in your browser. This presentation includes links to other third party websites and services. These sites are not under our control. RDM@CAU is not responsible for the content of linked third party websites. Please be aware that the security and privacy policies on these sites may be different than CAU policies. Please read third party privacy and security policies closely.")
+alert(„Haftungsausschluss: Bitte beachten Sie, dass Sie das CAU-Netzwerk verlassen, sobald Sie diese Präsentation in Ihrem Browser öffnen. Diese Präsentation enthält Links zu anderen Websites und Diensten von Drittanbietern. Diese Websites unterliegen nicht unserer Kontrolle. RDM@CAU ist nicht für den Inhalt der verlinkten Websites von Drittanbietern verantwortlich. Bitte beachten Sie, dass die Sicherheits- und Datenschutzrichtlinien dieser Websites von denen der CAU abweichen können. Bitte lesen Sie die Datenschutz- und Sicherheitsrichtlinien von Drittanbietern sorgfältig durch.“)
 
 "Disclaimer"
 </script>
@@ -63,20 +66,24 @@ Wir möchten mit Ihnen erreichen, dass Sie am Ende des Workshops ...
 
 # Datenspeicherung: Einführung
 
-## Überlegung
+## Vorgedanken
 
 {{0-1}}
 ****************
 Wo und wie speichern wir unsere Forschungsdaten?
----
+
 
 <div style="float:right; width:40%;">
   <img src="images/backup.png" alt="No back up? No mercy!">
 </div>
+****************
 
+{{1-2}}
+****************
 
 Eigener PC
-Mobiles Speicherbedium 
+
+Mobiles Speichermedium 
   USB-Stick
   Externe Festplatte
 
@@ -88,21 +95,90 @@ Externe Speicherorte (Cloud eines Anbieters)
 
 ****************
 
+## Vor- und Nachteile
 
-{{1-3}}
+
+{{1-2}}
 ****************
-> **Unterschiedliche Speichermedien haben Vor- und Nachteile...**
 
 
-> **...beispielsweise bzgl. der Lebensdauer**:
+``` ascii
++-----------------++---------------------------------------------++-----------------------------------------------+
+|                 ||                                             ||                                               | 
+| Speichermedium  ||                 Vorteile                    ++                  Nachteile                    |
+|                 ||                                             ||                                               |
++-----------------++---------------------------------------------++-----------------------------------------------+ 
++-----------------++---------------------------------------------++-----------------------------------------------+
+|                 || Verantwortung & Sicherheit bei einem selbst || bei Verlust keine Datenrettung möglich        | 
+| eigener PC      || maximale Kontrolle                          ++ kooperatives Arbeiten Schwierig               |
+|                 ||                                             ||                                               |
++-----------------++---------------------------------------------++-----------------------------------------------+ 
++-----------------++---------------------------------------------++-----------------------------------------------+
+|                 || leichter Transport                          || Verlust oder Diebstahl möglich                | 
+| Mobile          || Aufbewahrung im Safe möglich                ++ Inhalte separat verschlüsseln, da sonst       |
+| Speichermedien  ||                                             || nicht geschützt                               |
++-----------------++---------------------------------------------++-----------------------------------------------+ 
++-----------------++---------------------------------------------++-----------------------------------------------+
+|                 || Backup & Wartung wird übernommen            || Möglicherweise langsam                        | 
+| Institutionelle || Datenschutz der Institution berücksichtigt  ++ Sicherheitsstrategien evtl. intransparent     |
+| Speicherorte    ||                                             ||                                               |
++-----------------++---------------------------------------------++-----------------------------------------------+ 
++-----------------++---------------------------------------------++-----------------------------------------------+
+|                 || Einfache Nutzung und Verwaltung             || Datenschutz unklar                            | 
+| Externe         || Backup und Wartung vorhanden                ++ Abhängigkeit von einem Anbieter               |
+| Speicherorte    ||                                             ||                                               |
++-----------------++---------------------------------------------++-----------------------------------------------+ 
 
-![Lebensdauer](https://forschungsdaten.info/fileadmin/kooperationen/bwfdm/fdm/2-organisieren-und-aufbereiten/2-lebensdauer-von-daten/lebensdauer.png)
+```
 
 
 ****************
 
 {{2-3}}
 ****************
+
+Beispiel Cloudlösung
+
+
+| Cloudanbeiter           | Herkunft  | Open Source | Datenspeicherung | DSGVO  |
+| ----------------------- | --------: | -----------:| ----------------:| ------:|
+| Dropbox                 | USA       | nein        | unbekannt        | (ja)   |
+| OneDrive (Microsoft)    | USA       | nein        | unbekannt        | (nein) |
+| iCloud (Apple)          | USA       | nein        | unbekannt        | (nein) |
+| Nextcloud (CAU)         | EU        | ja          | EU               | ja     |
+
+
+****************
+
+{{3}}
+****************
+Beispiele von zertifizierten Cloudlösungen
+
+https://www.trusted-cloud.de/cloud-service-suche.html 
+
+****************
+
+
+## Lebensdauer von Speichermedien
+
+> **Speichermedien haben unterschiedlich lange Lebensdauer**:
+
+![Lebensdauer](https://forschungsdaten.info/fileadmin/kooperationen/bwfdm/fdm/2-organisieren-und-aufbereiten/2-lebensdauer-von-daten/lebensdauer.png)
+
+in Abhängigkeit von:
+
+* Temperatur
+* Feuchtigkeit
+* Beanspruchung
+* Lagerung
+
+
+
+
+
+
+## Zusammenfassung
+
 
 **Risiken**
 
@@ -112,12 +188,6 @@ Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
 
 Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
 
-****************
-
-<div style="page-break-after: always;"></div>
-
-{{3-4}}
-****************
 
 ## 3-2-1 Regel
 
@@ -165,6 +235,86 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 # Daten mit anderen teilen
 
 # Daten veröffentlichen
+
+
+
+
+
+
+# Herzlichen Dank!
+
+<img src="/images/rdmCAU.png" width="250" align="right">
+
+Mehr zum FDM an der CAU finden Sie hier: https://www.fdm.uni-kiel.de/de
+
+<div style="page-break-after: always;"></div>
+
+# Quellen
+
+https://mediafix.de/die-haltbarkeit-der-speichermedien/
+
+https://forschungsdaten.info/themen/speichern-und-rechnen/datenspeicherung-und-die-lebensdauer-von-datentraegern/
+
+https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cloud-Computing-Sicherheitstipps/Cloud-Risiken-und-Sicherheitstipps/cloud-risiken-und-sicherheitstipps_node.html
+
+
+
+
+Biernacka, K., Buchholz, P., Danker, S. A., Dolzycka, D., Engelhardt, C., Helbig, K., Jacob, J., Neumann, J., Odebrecht, C., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wiljes, C., & Wuttke, U. (2021). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 4). Zenodo. https://doi.org/10.5281/zenodo.5773203 
+
+Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., & Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://doi.org/10.5281/zenodo.10122153
+
+Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. https://doi.org/10.5281/zenodo.6674301
+
+Jaeger, Philipp, & Bode, Janice. (2021). Redet über die Daten! - Forschungsdatenmanagement und Hochschullehre in der Physik und darüber hinaus. Zenodo. https://doi.org/10.5281/zenodo.5168524
+
+Klump, J., Wyborn, L., Downs, R., Asmi, A., Wu, M., Ryder, G., & Martin, J. (2020). Principles and best practices in data versioning for all data sets big and small. Version 1.1. Research Data Alliance. [DOI: 10.15497/RDA00042](https://doi.org/10.15497/RDA00042).
+
+Petersen, B., Engelhardt, C., Hörner, T., Jacob, J., Kvetnaya, T., Mühlichen, A., Schranzhofer, H., Schulz, S., Slowig, B., Trautwein-Bruns, U., Voigt, A., & Wiljes, C. (2023). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) für die Zielgruppen Studierende, PhDs und Data Stewards (Version 2). Zenodo. https://doi.org/10.5281/zenodo.8010617
+
+Positionspapier zu FAIR und Open Data im physikalischen Praktikum, ZaPF, 2020, online unter https://zapfev.de/resolutionen/wise20/opendata/opendata.pdf
+
+Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American psychologist, 55(1), 68.
+
+Ryan, R. M., & Deci, E. L. (2017). Self-determination theory: Basic psychological needs in motivation, development, and wellness. Guilford Publications.
+https://datamanagement.hms.harvard.edu/collect/file-naming-conventions
+
+https://ddi-lifecycle-3-2-documentation.readthedocs.io/en/latest/generalstructures/versioning.html
+
+https://de.creativecommons.net/was-ist-cc/ 
+
+https://force11.org/info/the-fair-data-principles/ 
+
+https://forschungsdaten.info/
+
+https://learn.opengeoedu.de/
+
+https://mantra.ed.ac.uk/
+
+https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf
+
+https://www.fdm.uni-hannover.de/fileadmin/fdm/Dokumente/Schulungsunterlagen/Schulungsunterlagen_FDM_VertiefungDatenorganisation_Folien.pdf
+
+https://www.forschungsdaten-bildung.de
+
+https://www.gida-global.org/care 
+
+https://www.nfdi.de/
+
+https://opendata.uni-kiel.de/content/index.xml 
+
+https://opendata.schleswig-holstein.de/dataset 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -496,305 +646,6 @@ Informationen auf forschungsdaten.info: https://forschungsdaten.info/themen/rech
 
 
 
-## Publikation
-
-
-### Datenpublikation
-Wie können Sie Daten veröffentlichen und weitergeben werden?
-----
-
-{{1}}
-********************
-> Ergänzung zu einem von peer-review Artikel („enhanced publication“)
-********************
-
-{{2-3}}
-****************
-- als Ergänzung zu dem zugehörigen Artikel
-- als alleinstehenden Datensatz in einem Repository mit einem Link zum entsprechenden Artikel.
-
-<div style="width:100%;">
-  <img src="images/Example_R-R-Article.jpg" alt="Example R-R-Article">
-</div>
-
-**********************
-
-<div style="page-break-after: always;"></div>
-
-{{1}}
-********************
-> Unabhängiges Informationsobjekt in einem Repositorium
-********************
-
-{{3-4}}
-********************
-
-* disziplinspezifische Repositorien, z.B. [Datorium](https://data.gesis.org/sharing/#!Home), [Pangaea](https://www.pangaea.de/)
-
-* fächerübergreifende Repositorien, z. B. [ZENODO](https://zenodo.org/)
-
-* institutionelle Repositorien, z. B. [Refubium](https://www.fu-berlin.de/sites/open_access/refubium/index.html), [opendata@uni-kiel.de](https://opendata.uni-kiel.de/content/index.xml)
-
-Beispiel:
-
-<div style="float:left; width:45%;">
-<img src="images/Example_Pangaea.jpg" alt="Example Pangea">
-<sub>Source: https://www.pangaea.de/, Zugriff 10.02.2021</sub>
-
-</div>
-
-<div style="float:right; width:45%;">
-
-<div style="width:100%;">
-  <img src="images/Example_Zenodo.jpg" alt="Example Zenodo">
-  <sub>Source: https://zenodo.org/, Zugriff 10.02.2021</sub>
-</div>
-
-</div>
-
-*********************
-
-<div style="page-break-after: always;"></div>
-
-{{1}}
-********************
-> Data journals
-
-********************
-
-{{4-5}}
-***************************
-
-- detaillierte Beschreibung von Forschungsdaten
-
-- teilweise peer-reviewed
-
-Beispiel:
-
-<div style="float:left; width:45%;">
-<img src="images/example-datainbrief.png" alt="Example Data journal">
-<sub>Source: https://www.earth-system-science-data.net, Zugriff 10.02.2021</sub>
-
-</div>
-
-<div style="float:right; width:45%;">
-
-<div style="width:100%;">
-  <img src="images/example-datainbrief.png" alt="Example Data journal">
-  <sub>Source: https://www.journals.elsevier.com/data-in-brief, Zugriff 10.02.2021</sub>
-</div>
-
-</div>
-
-***************************
-
-<div style="page-break-after: always;"></div>
-
-#### Open Data at Kiel University
-
->**Information und services @Kiel University:**
->
->* Es gibt keine Richtlinien zur Förderung von Open Data an der CAU :-(
->* [Central Research Data Management](https://www.fdm.uni-kiel.de/en?set_language=en) stellt Informationen, Hilfe und Dienstleistungen bereit
->* [**opendata@uni-kiel**](https://opendata.uni-kiel.de/content/index.xml?lang=en) ist das Open Data Repository der CAU
-
-### Textpublikation
-
-#### Open Access at Kiel University
-
->**Information und services @Kiel University:**
->
->* [Richtlinien zur Förderung von Open Access an der CAU](https://www.praesidium.uni-kiel.de/de/dokumente/leitlinien-der-cau-zu-open-access)
->* [Universitätsbibliothek](https://www.ub.uni-kiel.de/en/publishing/publishing/information?set_language=en) provides information, help and services.
->   * [Finanzierung von OA](https://www.ub.uni-kiel.de/en/publishing/funding-of-oa-publications?set_language=en)
->* [MACAU ist das Open Access Repository der CAU](https://macau.uni-kiel.de/content/publish/information.xml?lang=en)
-
-<div style="page-break-after: always;"></div>
-
-
-
-
-## Wrap Up
-
-{{0-1}}
-********************************************************************************
-
-<img src="/images/kurzberichte.png" width="150" align="right">
-
-**Wir schauen uns ein kurzes Video an. Dies verdeutlicht nochmal die Gründe, warum Forschungsdatenmanagement wichtig ist.**
-
-Movie time!
-
----
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
----
-
-********************************************************************************
-<div style="page-break-after: always;"></div>
-
-
-{{1}}
-********************************************************************************
->**Gutes Forschungsdatenmanagement trägt bei zu ...**
->
-> - Reproduzierbarkeit von Ergebnissen (GWP)
-> - Rückverfolgbarkeit und Transparenz der Forschung (GWP)
-> - gute Auffindbarkeit von Daten, z. B. durch aussagekräftige Benennung und beschreibende Metadaten
-> - Wissenserhalt – Daten sollen unabhängig von einzelnen Menschen, Projekten oder Institutionen zugänglich sein (GWP)
-> - Erleichterung der Zusammenarbeit
-> - Vorbeugung von Datenverlusten
-> - Kostenersparnis, z. B. durch Nachnutzung statt neuer Erhebung
-> - Transfer der Daten in zukünftige Projekte
-> - Erhöhung der Sichtbarkeit der eigenen Arbeit durch Forschungsdatenzitation
-> - Erfüllung von Auflagen der Drittmittelgeber
-> - ….
-
-********************************************************************************
-<div style="page-break-after: always;"></div>
-
-
-
-# FDM an der CAU
-
-{{0-1}}
-***********
-
-<div style="width: 50%; float:right">
-![services](./images/cau-services.png)
-</div>
-
-website: https://www.fdm.uni-kiel.de/de
-
-e-mail: <a href="info@fdm.uni-kiel.de">info@fdm.uni-kiel.de  </a>
-
-***********
-
-{{1-2}}
-***********
-**Beratung**
-
-<div style="width: 20%; float:right">
-![working](./images/consultation.png)
-</div>
-
-* Antragsberatung
-
-* DMP Beratung
-
-* technische Beratung (Storage, Backup, Tools, usw.)
-
-* Unterstützung bei Peer Reviews
-
-* Hilfe bei der Datenpublikation
-***********
-
-{{2-3}}
-***********
-**Unterstützung bei Training & Lehre**
-
-<div style="width: 20%; float:right">
-![working](./images/training.png)
-</div>
-
-* Workshops
-
- * beim Graduate Center, Wissenschaftliche Weiterbildung
- * kleine Gruppen
- * unterschiedliche Zielgruppen
- * grundsätzliche FDM-Grundlagen
- * Spezialisation, z.B. Einführung in Git (auf Anfrage)
-
-* technische Unterstützung auf Anfrage
-***********
-
-
-{{3}}
-***********
-**Kontakt**
-
-<div style="width: 20%; float:right">
-![team](./images/team.png)
-</div>
-
-Zögern Sie nicht, uns zu kontaktieren:
-
->**DMP Beratung:**
->
->Thilo Paul-Stüwe
->paul-stueve@rz.uni-kiel.de
->
->Andreas Christ
->christ@ub.uni-kiel.de 
-
->**Workshops & Lehrunterstützung:**
->
->Britta Petersen
->b.petersen@rz.uni-kiel.de 
->
->Linda Zollisch 
->zollitsch@ub-uni-kiel.de
-
-***********
-
-
-# Herzlichen Dank!
-
-<img src="/images/rdmCAU.png" width="250" align="right">
-
-Mehr zum FDM an der CAU finden Sie hier: https://www.fdm.uni-kiel.de/de
-
-<div style="page-break-after: always;"></div>
-
-# Quellen
-Biernacka, K., Buchholz, P., Danker, S. A., Dolzycka, D., Engelhardt, C., Helbig, K., Jacob, J., Neumann, J., Odebrecht, C., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wiljes, C., & Wuttke, U. (2021). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 4). Zenodo. https://doi.org/10.5281/zenodo.5773203 
-
-Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., & Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://doi.org/10.5281/zenodo.10122153
-
-Engelhardt, C., Biernacka, K., Coffey, A., Cornet, R., Danciu, A., Demchenko, Y., Downes, S., Erdmann, C., Garbuglia, F., Germer, K., Helbig, K., Hellström, M., Hettne, K., Hibbert, D., Jetten, M., Karimova, Y., Kryger Hansen, K., Kuusniemi, M. E., Letizia, V., … Zhou, B. (2022). D7.4 How to be FAIR with your data. A teaching and training handbook for higher education institutions (V1.2.1). Zenodo. https://doi.org/10.5281/zenodo.6674301
-
-Jaeger, Philipp, & Bode, Janice. (2021). Redet über die Daten! - Forschungsdatenmanagement und Hochschullehre in der Physik und darüber hinaus. Zenodo. https://doi.org/10.5281/zenodo.5168524
-
-Klump, J., Wyborn, L., Downs, R., Asmi, A., Wu, M., Ryder, G., & Martin, J. (2020). Principles and best practices in data versioning for all data sets big and small. Version 1.1. Research Data Alliance. [DOI: 10.15497/RDA00042](https://doi.org/10.15497/RDA00042).
-
-Petersen, B., Engelhardt, C., Hörner, T., Jacob, J., Kvetnaya, T., Mühlichen, A., Schranzhofer, H., Schulz, S., Slowig, B., Trautwein-Bruns, U., Voigt, A., & Wiljes, C. (2023). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) für die Zielgruppen Studierende, PhDs und Data Stewards (Version 2). Zenodo. https://doi.org/10.5281/zenodo.8010617
-
-Positionspapier zu FAIR und Open Data im physikalischen Praktikum, ZaPF, 2020, online unter https://zapfev.de/resolutionen/wise20/opendata/opendata.pdf
-
-Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American psychologist, 55(1), 68.
-
-Ryan, R. M., & Deci, E. L. (2017). Self-determination theory: Basic psychological needs in motivation, development, and wellness. Guilford Publications.
-https://datamanagement.hms.harvard.edu/collect/file-naming-conventions
-
-https://ddi-lifecycle-3-2-documentation.readthedocs.io/en/latest/generalstructures/versioning.html
-
-https://de.creativecommons.net/was-ist-cc/ 
-
-https://force11.org/info/the-fair-data-principles/ 
-
-https://forschungsdaten.info/
-
-https://learn.opengeoedu.de/
-
-https://mantra.ed.ac.uk/
-
-https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf
-
-https://www.fdm.uni-hannover.de/fileadmin/fdm/Dokumente/Schulungsunterlagen/Schulungsunterlagen_FDM_VertiefungDatenorganisation_Folien.pdf
-
-https://www.forschungsdaten-bildung.de
-
-https://www.gida-global.org/care 
-
-https://www.nfdi.de/
-
-https://opendata.uni-kiel.de/content/index.xml 
-
-https://opendata.schleswig-holstein.de/dataset 
-
-
-
 
 
 # Orientierung im Themenbereich FDM
@@ -1046,3 +897,248 @@ R1.3. (Meta)data meet domain-relevant community standards
 **************
 
 <div style="page-break-after: always;"></div>
+
+
+
+
+## Publikation
+
+
+### Datenpublikation
+Wie können Sie Daten veröffentlichen und weitergeben werden?
+----
+
+{{1}}
+********************
+> Ergänzung zu einem von peer-review Artikel („enhanced publication“)
+********************
+
+{{2-3}}
+****************
+- als Ergänzung zu dem zugehörigen Artikel
+- als alleinstehenden Datensatz in einem Repository mit einem Link zum entsprechenden Artikel.
+
+<div style="width:100%;">
+  <img src="images/Example_R-R-Article.jpg" alt="Example R-R-Article">
+</div>
+
+**********************
+
+<div style="page-break-after: always;"></div>
+
+{{1}}
+********************
+> Unabhängiges Informationsobjekt in einem Repositorium
+********************
+
+{{3-4}}
+********************
+
+* disziplinspezifische Repositorien, z.B. [Datorium](https://data.gesis.org/sharing/#!Home), [Pangaea](https://www.pangaea.de/)
+
+* fächerübergreifende Repositorien, z. B. [ZENODO](https://zenodo.org/)
+
+* institutionelle Repositorien, z. B. [Refubium](https://www.fu-berlin.de/sites/open_access/refubium/index.html), [opendata@uni-kiel.de](https://opendata.uni-kiel.de/content/index.xml)
+
+Beispiel:
+
+<div style="float:left; width:45%;">
+<img src="images/Example_Pangaea.jpg" alt="Example Pangea">
+<sub>Source: https://www.pangaea.de/, Zugriff 10.02.2021</sub>
+
+</div>
+
+<div style="float:right; width:45%;">
+
+<div style="width:100%;">
+  <img src="images/Example_Zenodo.jpg" alt="Example Zenodo">
+  <sub>Source: https://zenodo.org/, Zugriff 10.02.2021</sub>
+</div>
+
+</div>
+
+*********************
+
+<div style="page-break-after: always;"></div>
+
+{{1}}
+********************
+> Data journals
+
+********************
+
+{{4-5}}
+***************************
+
+- detaillierte Beschreibung von Forschungsdaten
+
+- teilweise peer-reviewed
+
+Beispiel:
+
+<div style="float:left; width:45%;">
+<img src="images/example-datainbrief.png" alt="Example Data journal">
+<sub>Source: https://www.earth-system-science-data.net, Zugriff 10.02.2021</sub>
+
+</div>
+
+<div style="float:right; width:45%;">
+
+<div style="width:100%;">
+  <img src="images/example-datainbrief.png" alt="Example Data journal">
+  <sub>Source: https://www.journals.elsevier.com/data-in-brief, Zugriff 10.02.2021</sub>
+</div>
+
+</div>
+
+***************************
+
+<div style="page-break-after: always;"></div>
+
+#### Open Data at Kiel University
+
+>**Information und services @Kiel University:**
+>
+>* Es gibt keine Richtlinien zur Förderung von Open Data an der CAU :-(
+>* [Central Research Data Management](https://www.fdm.uni-kiel.de/en?set_language=en) stellt Informationen, Hilfe und Dienstleistungen bereit
+>* [**opendata@uni-kiel**](https://opendata.uni-kiel.de/content/index.xml?lang=en) ist das Open Data Repository der CAU
+
+### Textpublikation
+
+#### Open Access at Kiel University
+
+>**Information und services @Kiel University:**
+>
+>* [Richtlinien zur Förderung von Open Access an der CAU](https://www.praesidium.uni-kiel.de/de/dokumente/leitlinien-der-cau-zu-open-access)
+>* [Universitätsbibliothek](https://www.ub.uni-kiel.de/en/publishing/publishing/information?set_language=en) provides information, help and services.
+>   * [Finanzierung von OA](https://www.ub.uni-kiel.de/en/publishing/funding-of-oa-publications?set_language=en)
+>* [MACAU ist das Open Access Repository der CAU](https://macau.uni-kiel.de/content/publish/information.xml?lang=en)
+
+<div style="page-break-after: always;"></div>
+
+
+
+
+## Wrap Up
+
+{{0-1}}
+********************************************************************************
+
+<img src="/images/kurzberichte.png" width="150" align="right">
+
+**Wir schauen uns ein kurzes Video an. Dies verdeutlicht nochmal die Gründe, warum Forschungsdatenmanagement wichtig ist.**
+
+Movie time!
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/66oNv_DJuPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+********************************************************************************
+<div style="page-break-after: always;"></div>
+
+
+{{1}}
+********************************************************************************
+>**Gutes Forschungsdatenmanagement trägt bei zu ...**
+>
+> - Reproduzierbarkeit von Ergebnissen (GWP)
+> - Rückverfolgbarkeit und Transparenz der Forschung (GWP)
+> - gute Auffindbarkeit von Daten, z. B. durch aussagekräftige Benennung und beschreibende Metadaten
+> - Wissenserhalt – Daten sollen unabhängig von einzelnen Menschen, Projekten oder Institutionen zugänglich sein (GWP)
+> - Erleichterung der Zusammenarbeit
+> - Vorbeugung von Datenverlusten
+> - Kostenersparnis, z. B. durch Nachnutzung statt neuer Erhebung
+> - Transfer der Daten in zukünftige Projekte
+> - Erhöhung der Sichtbarkeit der eigenen Arbeit durch Forschungsdatenzitation
+> - Erfüllung von Auflagen der Drittmittelgeber
+> - ….
+
+********************************************************************************
+<div style="page-break-after: always;"></div>
+
+
+
+# FDM an der CAU
+
+{{0-1}}
+***********
+
+<div style="width: 50%; float:right">
+![services](./images/cau-services.png)
+</div>
+
+website: https://www.fdm.uni-kiel.de/de
+
+e-mail: <a href="info@fdm.uni-kiel.de">info@fdm.uni-kiel.de  </a>
+
+***********
+
+{{1-2}}
+***********
+**Beratung**
+
+<div style="width: 20%; float:right">
+![working](./images/consultation.png)
+</div>
+
+* Antragsberatung
+
+* DMP Beratung
+
+* technische Beratung (Storage, Backup, Tools, usw.)
+
+* Unterstützung bei Peer Reviews
+
+* Hilfe bei der Datenpublikation
+***********
+
+{{2-3}}
+***********
+**Unterstützung bei Training & Lehre**
+
+<div style="width: 20%; float:right">
+![working](./images/training.png)
+</div>
+
+* Workshops
+
+ * beim Graduate Center, Wissenschaftliche Weiterbildung
+ * kleine Gruppen
+ * unterschiedliche Zielgruppen
+ * grundsätzliche FDM-Grundlagen
+ * Spezialisation, z.B. Einführung in Git (auf Anfrage)
+
+* technische Unterstützung auf Anfrage
+***********
+
+
+{{3}}
+***********
+**Kontakt**
+
+<div style="width: 20%; float:right">
+![team](./images/team.png)
+</div>
+
+Zögern Sie nicht, uns zu kontaktieren:
+
+>**DMP Beratung:**
+>
+>Thilo Paul-Stüwe
+>paul-stueve@rz.uni-kiel.de
+>
+>Andreas Christ
+>christ@ub.uni-kiel.de 
+
+>**Workshops & Lehrunterstützung:**
+>
+>Britta Petersen
+>b.petersen@rz.uni-kiel.de 
+>
+>Linda Zollisch 
+>zollitsch@ub-uni-kiel.de
+
+***********
