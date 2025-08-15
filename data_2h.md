@@ -276,6 +276,20 @@ Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup
 
 # Datenspeicherung in der CAU-Cloud
 
+## Landesdatenstrategie
+
+![Landesdatenstrategie]()
+
+https://transparenz.schleswig-holstein.de/dataset/cb95db6d-126c-4201-82dd-758ff897558d/resource/7f86ebbc-0a3e-4bd0-a9f3-fc56f62de99b/download/20240119_landesdatenstrategie_sh.pdf
+
+
+
+## Funktionen
+
+## Vor- und Nachteile
+
+
+
 
 
 # Daten mit anderen teilen
