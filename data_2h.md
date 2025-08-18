@@ -15,7 +15,7 @@ comment:  This document provides a brief introduction to data storage and backup
 
 -->
 
-# Datenumgang (Daten speichern und teilen)
+# Datenumgang (Daten speichern und teilen) 💾
 
 
 
@@ -40,7 +40,7 @@ alert("Disclaimer: Please note that you are leaving the CAU net once you open th
 > This work is licenced under CCBY (https://creativecommons.org/licenses/by/4.0/)
 
 
-## Ziele dieses Workshops
+## Ziele dieses Workshops 🎯
 
 <img src="/images/nachnutzung-fdm-zyklus_2022.png" alt="Goals today" width="200" align="right">
 
@@ -54,15 +54,15 @@ Lernende können ...
 
 ## Überblick
 
-* Datenspeicherung und Backup: Einführung
+* Datenspeicherung und Backup: Einführung 📝
 
-* Datenspeicherung in der CAU-Cloud
+* Datenspeicherung in der CAU-Cloud ☁ 
 
-* Daten mit anderen teilen (während der Arbeit daran)
+* Daten mit anderen teilen (während der Arbeit daran) 📚 
 
 
 
-# Datenspeicherung und Backup: Einführung
+# Datenspeicherung und Backup: Einführung 📝
 
 <div style="float:right; width:40%;">
   <img src="/images/backup.png" alt="No back up? No mercy!">
@@ -71,7 +71,7 @@ Lernende können ...
 
 {{0-1}}
 ****************
-Wo und wie speichern wir unsere (Forschungs)Daten?
+Wo und wie speichern wir unsere (Forschungs)Daten? 🗨️
 
 
 ****************
@@ -79,16 +79,17 @@ Wo und wie speichern wir unsere (Forschungs)Daten?
 {{1-2}}
 ****************
 
-* Eigener PC
+- Eigener PC
 
-* Mobiles Speichermedium 
-    * USB-Stick
-    * Externe Festplatte
+- Mobiles Speichermedium 
 
-* Institutionelle Speicherorte
+    - USB-Stick
+    - Externe Festplatte 
 
-    * Cloud
-    * Virtuelle Laufwerke
+- Institutionelle Speicherorte
+
+    - Cloud
+    - Virtuelle Laufwerke
 
 * Externe Speicherorte (Cloud eines Anbieters)
 
@@ -100,11 +101,15 @@ Wo und wie speichern wir unsere (Forschungs)Daten?
 {{1-2}}
 ****************
 
-
+<!--
+style="
+  max-width: 500px;
+  background-color: #fee1ff;
+  stroke: #9a047f;" -->
 ``` ascii
 +-----------------+
-| Eigener PC      |            +-----------------+
-+-----------------+            | Mobile          |
+| Eigener PC 💻  |            +-----------------+
++-----------------+            | Mobile 💽      |
                                | Speichermedien  |
                                +-----------------+
 
@@ -125,38 +130,34 @@ Wo und wie speichern wir unsere (Forschungs)Daten?
 
 
 ``` ascii
-+-----------------++---------------------------------------------++-----------------------------------------------+
-|                 ||                                             ||                                               | 
-| Speichermedium  ||                 Vorteile                    ||                  Nachteile                    |
-|                 ||                                             ||                                               |
-+-----------------++---------------------------------------------++-----------------------------------------------+ 
-+-----------------++---------------------------------------------++-----------------------------------------------+
-|                 || Verantwortung & Sicherheit bei einem selbst || bei Verlust keine Datenrettung möglich        | 
-| Eigener PC      || maximale Kontrolle                          || kooperatives Arbeiten Schwierig               |
-|                 ||                                             ||                                               |
-+-----------------++---------------------------------------------++-----------------------------------------------+ 
-+-----------------++---------------------------------------------++-----------------------------------------------+
-|                 || leichter Transport                          || Verlust oder Diebstahl möglich                | 
-| Mobile          || Aufbewahrung im Safe möglich                || Inhalte separat verschlüsseln, da sonst       |
-| Speichermedien  ||                                             || nicht geschützt                               |
-+-----------------++---------------------------------------------++-----------------------------------------------+ 
-+-----------------++---------------------------------------------++-----------------------------------------------+
-|                 || Backup & Wartung wird übernommen            || Möglicherweise langsam                        | 
-| Institutionelle || Datenschutz der Institution berücksichtigt  || Sicherheitsstrategien evtl. intransparent     |
-| Speicherorte    ||                                             ||                                               |
-+-----------------++---------------------------------------------++-----------------------------------------------+ 
-+-----------------++---------------------------------------------++-----------------------------------------------+
-|                 || Einfache Nutzung und Verwaltung             || Datenschutz unklar                            | 
-| Externe         || Backup und Wartung vorhanden                || Abhängigkeit von einem Anbieter               |
-| Speicherorte    ||                                             ||                                               |
-+-----------------++---------------------------------------------++-----------------------------------------------+ 
++-----------------+---------------------------------------------+-----------------------------------------------+
+|                 |                                             |                                               | 
+| Speichermedium  |                 Vorteile                    |                  Nachteile                    |
+|                 |                                             |                                               |
++-----------------+---------------------------------------------+-----------------------------------------------+ 
+|                 | Verantwortung & Sicherheit bei einem selbst | bei Verlust keine Datenrettung möglich        | 
+| Eigener PC      | maximale Kontrolle                          | kooperatives Arbeiten Schwierig               |
+|                 |                                             |                                               |
++-----------------+---------------------------------------------+-----------------------------------------------+
+|                 | leichter Transport                          | Verlust oder Diebstahl möglich                | 
+| Mobile          | Aufbewahrung im Safe möglich                | Inhalte separat verschlüsseln, da sonst       |
+| Speichermedien  |                                             | nicht geschützt                               |
++-----------------+---------------------------------------------+-----------------------------------------------+ 
+|                 | Backup & Wartung wird übernommen            | Möglicherweise langsam                        | 
+| Institutionelle | Datenschutz der Institution berücksichtigt  | Sicherheitsstrategien evtl. intransparent     |
+| Speicherorte    |                                             |                                               |
++-----------------+---------------------------------------------+-----------------------------------------------+ 
+|                 | Einfache Nutzung und Verwaltung             | Datenschutz unklar                            | 
+| Externe         | Backup und Wartung vorhanden                | Abhängigkeit von einem Anbieter               |
+| Speicherorte    |                                             |                                               |
++-----------------+---------------------------------------------+-----------------------------------------------+ 
 
 ```
 
 
 ****************
 
-## Cloudlösungen
+## Cloudlösungen ☁ 
 
 {{1-2}}
 ****************
@@ -183,22 +184,27 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 ****************
 
 
-## Lebensdauer von Speichermedien
+## Lebensdauer von Speichermedien ⚠️
 
 > **Speichermedien haben unterschiedlich lange Lebensdauer**:
 
-![Lebensdauer](/images/Lebensdauer.png)
+<div style="float:left; width:80%;">
+  <img src="/images/Lebensdauer.png" alt="Lebensdauer">
+</div>
+
+
 
 <!--
 style="
+  float: right;
   max-width: 500px;
   background-color: #fee1ff;
   stroke: #9a047f;" -->
 ``` ascii
-.--------------------+-------------.
+.--------------------.-------------.
 | Speichermedium     | Lebensdauer |
 |                    |  in Jahren  |
-.--------------------+-------------. 
+.--------------------.-------------. 
 
 .--------------------+------+------.
 | Externe Festplatte |   5  |  10  |
@@ -230,19 +236,20 @@ in Abhängigkeit von:
 
 ## 3-2-1 Regel
 
-Mindestens 3 Kopien der Daten
 
-... auf mindestens 2 unterschiedlichen Speichermedien
+Mindestens 3 Kopien der Daten 📝 📝 📝
 
-... wovon mindestens 1 Kopie dezentral ist.
+... auf mindestens 2 unterschiedlichen Speichermedien 💾 💽
+
+... wovon mindestens 1 Kopie dezentral ist. ☁
 
 Datenwiederherstellung zu Beginn sowie in regelmäßigen Abständen testen!
 
-## Sensible Daten
+## Sensible Daten 🔒 
 
 Besondere Aufmerksamkeit bei sensiblen Daten:
 
-> **Schützen Sie sensible Daten!**
+> **Schützen Sie sensible Daten!** 
 >
 >- Hardware (z. B. in einem abschießbaren Raum gelagert)
 >- Dateiverschlüsselung
@@ -250,7 +257,7 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 >- Mindestens zwei Personen sollten Zugang zu den Daten haben
 
 
-## Backup vs. Langzeitarchivierung
+## Backup vs. Langzeitarchivierung 📂 
 
 | Back up                                                                          | Langzeit Speicherung            |
 | -------------------------------------------------------------------------------- | ----------------------------- |
@@ -262,7 +269,7 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 
 
 
-## Zusammenfassung
+## Zusammenfassung ☝
 
 
 **Risiken**
@@ -274,11 +281,11 @@ Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
 Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
 
 
-# Datenspeicherung in der CAU-Cloud
+# Datenspeicherung in der CAU-Cloud ☁ 
 
 ## Open-Source-Strategie
 
-![Open-Source]()
+![Open-Source](/images/open-source.png)
 
 * Digitale Souveränität
 
@@ -288,12 +295,12 @@ Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup
 
 * Ablösung proorietärer Software (Seite 9)
 
-![Open-Source Säulen]()
+![Open-Source Säulen](/images/open-source_SH.png)
 
 "Produkte von Microsoft versorgen nahezu vollständig die Arbeitsplatzsysteme, sind kriti
 sche Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis für einige Dienste." (Seite 22)
 
-![Kosten Microsoft Bund]()
+![Kosten Microsoft Bund](/images/Kosten_Microsoft.png)
 
 
 
@@ -301,11 +308,13 @@ sche Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis f
 
 ## Vor- und Nachteile
 
+* Gemeinsames Arbeiten möglich
 
 
 
 
-# Daten mit anderen teilen
+
+# Daten mit anderen teilen 📚 
 
 Per Mail
 
@@ -316,6 +325,25 @@ Per Mail
 
 
 
+📂 📁 📄 📑📒 📖 🧾 📚 
+
+📀 💾 💿 💽 💼 💻 ☁ 🗂️🗃️ 🛍️ 🖨️ 
+
+🎚️ 🔑 🔒 🔓 🗝️ 🔏 
+
+⏱️ ⏳️ 
+
+🎯 ⛑️ 🆚 ☠ ♲♻ ☝ ☚ ☛ 
+
+🎬🍿 
+
+✔️ ✖️ 
+
+✒️ ✏️ ✍️ 
+
+ 💬
+
+ 🚨 🔎 🦖 🦉 🤝 💡 🌐 🏁 🍪 ❓️❗️
 
 
 # Herzlichen Dank!
