@@ -269,14 +269,14 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 
 
 
-## Zusammenfassung ☝
+## Zusammenfassung 🦉
 
 
-**Risiken**
+**Risiken**❗️
 
 Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
 
-**Strategien**
+**Strategien** 💡
 
 Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
 
@@ -306,9 +306,21 @@ sche Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis f
 
 ## Funktionen
 
-## Vor- und Nachteile
+* Gemeinsames Arbeiten online möglich
 
-* Gemeinsames Arbeiten möglich
+* Zugang auch für CAU-externe möglich
+
+* Backup durch CAU
+
+* Datenschutz-konform
+
+
+
+ABER
+
+* Begrenzte Speichervolumen
+
+* an eine Person an der CAU gebunden
 
 
 
