@@ -331,9 +331,11 @@ sche Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis f
 
 # Daten mit anderen teilen 📚 
 
-Per Mail 📄
+* Per Mail 📄
 
-über die Cloud ☁
+* über die Cloud ☁
+
+* über OpenData@CAU 
 
 
 
