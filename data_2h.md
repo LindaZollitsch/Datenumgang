@@ -192,12 +192,7 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 {{1-2}}
 ****************
 
-<!--
-style="
-  float: left;
-  max-width: 300px;
-  background-color: #fee1ff;
-  stroke: #9a047f;" -->
+<!-- class="flex-child-1" style="background: lightgray; min-width: 100px; max-height:300px" -->
 ``` ascii
 .--------------------.-------------.
 | Speichermedium     | Lebensdauer |
@@ -223,7 +218,7 @@ style="
 .--------------------+------+------. 
 
 ```
-
+<!-- class="flex-child-1" style="background: lightgray; min-width: 100px; max-height:300px" -->
 <div style="float:right; width:80%;">
   <img src="/images/Lebensdauer.png" alt="Lebensdauer">
 </div>

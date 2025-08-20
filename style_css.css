@@ -1,0 +1,186 @@
+.flex-container {
+
+
+display: flex;
+
+
+flex-wrap: wrap; /* Allows the items to wrap as needed */
+
+
+align-items: stretch;
+
+
+gap: 20px; /* Adds both horizontal and vertical spacing between items */
+
+
+}
+
+
+
+
+.container {
+
+
+display: flex;
+
+
+flex-direction: column; /* Reihen untereinander */
+
+
+gap: 10px; /* Abstand zwischen den Reihen */
+
+
+}
+
+
+
+
+.row {
+
+
+display: flex;
+
+
+flex-direction: row; /* Elemente nebeneinander */
+
+
+gap: 10px; /* Abstand zwischen den Boxen */
+
+
+}
+
+
+
+
+.box {
+
+
+flex: 1; /* Gleichmäßige Verteilung */
+
+
+padding: 20px;
+
+
+background-color: lightblue;
+
+
+text-align: center;
+
+
+border: 1px solid #ccc;
+
+
+border-radius: 8px;
+
+
+}
+
+
+
+
+
+
+.flex-child,
+
+
+.flex-child-1 { flex: 1; }
+
+
+.flex-child-2 { flex: 2; }
+
+
+.flex-child-3 { flex: 3; }
+
+
+.flex-child-4 { flex: 4; }
+
+
+.flex-child-5 { flex: 5; }
+
+
+.flex-child-6 { flex: 6; }
+
+
+.flex-child-7 { flex: 7; }
+
+
+.flex-child-8 { flex: 8; }
+
+
+
+
+.flex-child,
+
+
+.flex-child-1,
+
+
+.flex-child-2,
+
+
+.flex-child-3,
+
+
+.flex-child-4,
+
+
+.flex-child-5,
+
+
+.flex-child-6,
+
+
+.flex-child-7,
+
+
+.flex-child-8 {
+
+
+margin-right: 10px; /* Adds space between the columns */
+
+
+}
+
+
+
+
+@media (max-width: 500px) {
+
+
+.flex-child,
+
+
+.flex-child-1,
+
+
+.flex-child-2,
+
+
+.flex-child-3,
+
+
+.flex-child-4,
+
+
+.flex-child-5,
+
+
+.flex-child-6,
+
+
+.flex-child-7,
+
+
+.flex-child-8 {
+
+
+flex: 100%; /* Makes the child divs take up the full width on slim devices */
+
+
+margin-right: 0; /* Removes the right margin */
+
+
+}
+
+
+}
