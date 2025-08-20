@@ -218,13 +218,10 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 .--------------------+------+------. 
 
 ```
-<!-- class="flex-child-2" style="background: lightgray -->
+<!-- class="flex-child-1" style="background: lightgray; min-width: 100px; max-height:300px" -->
   <img src="/images/Lebensdauer.png" alt="Lebensdauer">
 
 
-<div style="float:right; width:80%;">
-  <img src="/images/Lebensdauer-komplett.png" alt="Lebensdauer">
-</div>
 
 ****************
 
