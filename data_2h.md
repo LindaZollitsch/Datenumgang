@@ -189,6 +189,8 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 > **Speichermedien haben unterschiedlich lange Lebensdauer**:
 
+{{1-2}}
+****************
 
 <!--
 style="
@@ -226,8 +228,10 @@ style="
   <img src="/images/Lebensdauer.png" alt="Lebensdauer">
 </div>
 
+****************
 
------
+{{2}}
+****************
 
 in Abhängigkeit von:
 
@@ -235,7 +239,7 @@ in Abhängigkeit von:
 * Feuchtigkeit
 * Beanspruchung
 * Lagerung
-
+****************
 
 ## 3-2-1 Regel
 
