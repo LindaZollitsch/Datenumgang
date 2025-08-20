@@ -8,7 +8,7 @@ narrator: UK English Female
 
 icon:     images/Logo_cau-norm-de-lilagrey-rgb-0720_2022.png
 
-link: LindaZollitsch/Datenumgang/style_css.css
+link: style_css.css
   
 
 
@@ -195,7 +195,7 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 <section class="flex-container">
 
-<!-- class="flex-child-1" style="background: lightgray; min-width: 100px; max-height:300px" -->
+<!-- class="flex-child-1" style="min-width: 300px; max-height:500px" -->
 ``` ascii
 .--------------------.-------------.
 | Speichermedium     | Lebensdauer |
@@ -222,32 +222,8 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 ```
 
-<!-- class="flex-child-2" style="background: lightgray; min-width: 100px; max-height:300px" -->
-``` ascii
-.--------------------.-------------.
-| Speichermedium     | Lebensdauer |
-|                    |  in Jahren  |
-.--------------------.-------------. 
-
-.--------------------+------+------.
-| Externe Festplatte |   5  |  10  |
-.--------------------+------+------. 
-| Festplatte HDD     |   3  |   5  | 
-.--------------------+------+------.
-| Festplatte SSD     |   5  |  10  |
-.--------------------+------+------. 
-| SD-Speicherkarte   |  10  |  30  |
-.--------------------+------+------.
-| USB-Stick          |  10  |  30  |
-.--------------------+------+------. 
-| CD/DVD gebrannt    |   5  |  10  |
-.--------------------+------+------. 
-| CD/DVD gepresst    |  10  |  30  |
-.--------------------+------+------. 
-| Blu-ray            |  30  |  80  |
-.--------------------+------+------. 
-
-```
+<!-- class="flex-child-2" style="background: lightgray; min-width: 150px; max-height:350px" -->
+<img src="images\Lebensdauer.png">
 
 </section>
 
