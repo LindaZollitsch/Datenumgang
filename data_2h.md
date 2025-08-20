@@ -84,11 +84,13 @@ Wo und wie speichern wir unsere (Forschungs)Daten? 🗨️
 - Mobiles Speichermedium 
 
     - USB-Stick
+
     - Externe Festplatte 
 
 - Institutionelle Speicherorte
 
     - Cloud
+    
     - Virtuelle Laufwerke
 
 * Externe Speicherorte (Cloud eines Anbieters)
