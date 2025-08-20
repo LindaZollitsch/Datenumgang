@@ -9,8 +9,8 @@ narrator: UK English Female
 icon:     images/Logo_cau-norm-de-lilagrey-rgb-0720_2022.png
 
 link: https://raw.githubusercontent.com/RDM4CAU/Intro-to-RDM/refs/heads/main/cau-style.css
+LindaZollitsch/Datenumgang/style_css.css
 
-link: LindaZollitsch/Datenumgang/style_css.css
 
 comment:  This document provides a brief introduction to data storage and backup.
 
