@@ -219,9 +219,8 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 ```
 <!-- class="flex-child-2" style="background: lightgray -->
-<div style="float:right; width:80%;">
   <img src="/images/Lebensdauer.png" alt="Lebensdauer">
-</div>
+
 
 <div style="float:right; width:80%;">
   <img src="/images/Lebensdauer-komplett.png" alt="Lebensdauer">
