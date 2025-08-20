@@ -105,7 +105,6 @@ Wo und wie speichern wir unsere (Forschungs)Daten? 🗨️
 
 <!--
 style="
-  max-width: 500px;
   background-color: #fee1ff;
   stroke: #9a047f;" -->
 ``` ascii
@@ -194,7 +193,7 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 <!--
 style="
   float: left;
-  max-width: 500px;
+  max-width: 300px;
   background-color: #fee1ff;
   stroke: #9a047f;" -->
 ``` ascii
@@ -228,7 +227,7 @@ style="
 </div>
 
 
-
+-----
 
 in Abhängigkeit von:
 
@@ -314,36 +313,6 @@ Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup
 
 
 
-
-## Open-Source-Strategie
-
-{{1-2}}
-****************
-![Open-Source](/images/open-source.png)
-
-* Digitale Souveränität
-
-* Open Source
-
-* Cloudlösungen (Seite 7)
-
-* Ablösung proorietärer Software (Seite 9)
-****************
-
-{{2-3}}
-****************
-![Open-Source Säulen](/images/open-source_SH.png)
-
-"Produkte von Microsoft versorgen nahezu vollständig die Arbeitsplatzsysteme, sind kriti
-sche Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis für einige Dienste." (Seite 22)
-****************
-
-{{3}}
-****************
-![Kosten Microsoft Bund](/images/Kosten_Microsoft.png)
-****************
-
-
 ## Funktionen
 
 >* Gemeinsames Arbeiten online möglich
@@ -365,6 +334,35 @@ sche Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis f
 
 * Speicherzeit an die Anstellung der Person an der CAU gebunden
 
+
+
+
+## Open-Source-Strategie
+
+{{1-2}}
+****************
+![Open-Source](/images/open-source.png)
+
+* Digitale Souveränität
+
+* Open Source
+
+* Cloudlösungen (Seite 7)
+
+* Ablösung proorietärer Software (Seite 9)
+****************
+
+{{2-3}}
+****************
+![Open-Source Säulen](/images/open-source_SH.png)
+
+"Produkte von Microsoft versorgen nahezu vollständig die Arbeitsplatzsysteme, sind kritische Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis für einige Dienste." (Seite 22)
+****************
+
+{{3}}
+****************
+![Kosten Microsoft Bund](/images/Kosten_Microsoft.png)
+****************
 
 
 
