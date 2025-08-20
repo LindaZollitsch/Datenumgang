@@ -192,6 +192,8 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 {{1-2}}
 ****************
 
+<section class="flex-container">
+
 <!-- class="flex-child-1" style="background: lightgray; min-width: 100px; max-height:300px" -->
 ``` ascii
 .--------------------.-------------.
@@ -222,7 +224,7 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 <!-- class="flex-child-2" style="background: lightgray; min-width: 0px; max-height:300px" -->
 <img src="/images/Lebensdauer.png" alt="Lebensdauer">
 
-
+</section>
 
 ****************
 
