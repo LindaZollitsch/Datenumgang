@@ -54,11 +54,11 @@ Lernende können ...
 
 ## Überblick
 
-* Datenspeicherung und Backup: Einführung 📝
+* Datenspeicherung und Backup: Einführung
 
-* Datenspeicherung in der CAU-Cloud ☁ 
+* Datenspeicherung in der CAU-Cloud
 
-* Daten mit anderen teilen (während der Arbeit daran) 📚 
+* Daten mit anderen teilen (während der Arbeit daran)
 
 
 
@@ -85,13 +85,13 @@ Wo und wie speichern wir unsere (Forschungs)Daten? 🗨️
 
     - USB-Stick
 
-    - Externe Festplatte 
+  - Externe Festplatte 
 
 - Institutionelle Speicherorte
 
     - Cloud
-    
-    - Virtuelle Laufwerke
+
+  - Virtuelle Laufwerke
 
 * Externe Speicherorte (Cloud eines Anbieters)
 
@@ -110,8 +110,8 @@ style="
   stroke: #9a047f;" -->
 ``` ascii
 +-----------------+
-| Eigener PC 💻  |            +-----------------+
-+-----------------+            | Mobile 💽      |
+| Eigener PC      |            +-----------------+
++-----------------+            | Mobile          |
                                | Speichermedien  |
                                +-----------------+
 
@@ -190,15 +190,10 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 > **Speichermedien haben unterschiedlich lange Lebensdauer**:
 
-<div style="float:left; width:80%;">
-  <img src="/images/Lebensdauer.png" alt="Lebensdauer">
-</div>
-
-
 
 <!--
 style="
-  float: right;
+  float: left;
   max-width: 500px;
   background-color: #fee1ff;
   stroke: #9a047f;" -->
@@ -227,6 +222,13 @@ style="
 .--------------------+------+------. 
 
 ```
+
+<div style="float:right; width:80%;">
+  <img src="/images/Lebensdauer.png" alt="Lebensdauer">
+</div>
+
+
+
 
 in Abhängigkeit von:
 
@@ -278,6 +280,8 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 
 Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
 
+-----
+
 **Strategien** 💡
 
 Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
@@ -285,22 +289,36 @@ Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup
 
 # Datenspeicherung in der CAU-Cloud ☁ 
 
+{{1-2}}
+****************
 ![landing page](/images/CAU-cloud0.png)
 
+****************
 
-![landing page](/images/CAU-cloud1.png)
+{{2-3}}
+****************
+![overview](/images/CAU-cloud1.png)
 
+****************
 
-![landing page](/images/CAU-cloud2.png)
+{{3}}
+****************
+![left](/images/CAU-cloud3.png)
 
+****************
+{{4}}
+****************
+![top](/images/CAU-cloud2.png)
 
-![landing page](/images/CAU-cloud3.png)
+****************
 
 
 
 
 ## Open-Source-Strategie
 
+{{1-2}}
+****************
 ![Open-Source](/images/open-source.png)
 
 * Digitale Souveränität
@@ -310,14 +328,20 @@ Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup
 * Cloudlösungen (Seite 7)
 
 * Ablösung proorietärer Software (Seite 9)
+****************
 
+{{2-3}}
+****************
 ![Open-Source Säulen](/images/open-source_SH.png)
 
 "Produkte von Microsoft versorgen nahezu vollständig die Arbeitsplatzsysteme, sind kriti
 sche Komponenten im Backend und bilden zudem auf der Anwendungsebene die Basis für einige Dienste." (Seite 22)
+****************
 
+{{3}}
+****************
 ![Kosten Microsoft Bund](/images/Kosten_Microsoft.png)
-
+****************
 
 
 ## Funktionen
