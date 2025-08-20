@@ -8,7 +8,7 @@ narrator: UK English Female
 
 icon:     images/Logo_cau-norm-de-lilagrey-rgb-0720_2022.png
 
-link: ./LindaZollitsch/Datenumgang/style_css.css
+link: LindaZollitsch/Datenumgang/style_css.css
   
 
 
