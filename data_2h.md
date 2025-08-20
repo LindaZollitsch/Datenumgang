@@ -228,6 +228,10 @@ style="
   <img src="/images/Lebensdauer.png" alt="Lebensdauer">
 </div>
 
+<div style="float:right; width:80%;">
+  <img src="/images/Lebensdauer_bis.png" alt="Lebensdauer">
+</div>
+
 ****************
 
 {{2}}
