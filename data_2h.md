@@ -283,6 +283,23 @@ Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup
 
 # Datenspeicherung in der CAU-Cloud ☁ 
 
+<div style="float:right; width:40%;">
+  <img src="/images/CAU-cloud0.png" alt="landing page">
+</div>
+
+<div style="float:right; width:40%;">
+  <img src="/images/CAU-cloud1.png" alt="overview">
+</div>
+
+<div style="float:right; width:40%;">
+  <img src="/images/CAU-cloud2.png" alt="top">
+</div>
+
+<div style="float:right; width:40%;">
+  <img src="/images/CAU-cloud3.png" alt="left">
+</div>
+
+
 ## Open-Source-Strategie
 
 ![Open-Source](/images/open-source.png)
