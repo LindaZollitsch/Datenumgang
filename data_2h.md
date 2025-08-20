@@ -224,7 +224,31 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 ```
 
 <!-- class="flex-child-2" style="background: lightgray; min-width: 100px; max-height:300px" -->
-![img](/images/Lebensdauer-komplett.png)
+``` ascii
+.--------------------.-------------.
+| Speichermedium     | Lebensdauer |
+|                    |  in Jahren  |
+.--------------------.-------------. 
+
+.--------------------+------+------.
+| Externe Festplatte |   5  |  10  |
+.--------------------+------+------. 
+| Festplatte HDD     |   3  |   5  | 
+.--------------------+------+------.
+| Festplatte SSD     |   5  |  10  |
+.--------------------+------+------. 
+| SD-Speicherkarte   |  10  |  30  |
+.--------------------+------+------.
+| USB-Stick          |  10  |  30  |
+.--------------------+------+------. 
+| CD/DVD gebrannt    |   5  |  10  |
+.--------------------+------+------. 
+| CD/DVD gepresst    |  10  |  30  |
+.--------------------+------+------. 
+| Blu-ray            |  30  |  80  |
+.--------------------+------+------. 
+
+```
 
 </section>
 
@@ -232,6 +256,8 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 {{2}}
 ****************
+![img](/images/Lebensdauer-komplett.png)
+
 
 in Abhängigkeit von:
 
