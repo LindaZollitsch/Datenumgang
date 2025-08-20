@@ -229,7 +229,7 @@ style="
 </div>
 
 <div style="float:right; width:80%;">
-  <img src="/images/Lebensdauer_bis.png" alt="Lebensdauer">
+  <img src="/images/Lebensdauer-komplett.png" alt="Lebensdauer">
 </div>
 
 ****************
