@@ -29,7 +29,6 @@ alert("Disclaimer: Please note that you are leaving the CAU net once you open th
 
 <center><img src="./images/fdm_lehre.png" alt="workshop, teaching" height="40%" width="40%"></center>
 
-<div style="page-break-after: always;"></div>
 
 > To see this document as an interactive LiaScript rendered version, click on the
 > following link/badge:
@@ -38,8 +37,8 @@ alert("Disclaimer: Please note that you are leaving the CAU net once you open th
 >
 > If you have questions, please contact us: [Central Research Data Management](https://www.datamanagement.uni-kiel.de/de)
 >
-> This work is licenced under CCBY (https://creativecommons.org/licenses/by/4.0/)
-
+> This work is licenced under CCBY 
+![ccby](./images/ccby.png) (https://creativecommons.org/licenses/by/4.0/)
 
 ## Ziele dieses Workshops 🎯
 
@@ -195,6 +194,60 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 <section class="flex-container">
 
+<!-- class="flex-child-1" style="min-width: 350px; max-height:500px" -->
+``` ascii
+.--------------------.-------------.
+| Speichermedium     | Lebensdauer |
+|                    |  in Jahren  |
+.--------------------.-------------. 
+
+.--------------------+------+------.
+| Externe Festplatte |   5  |  10  |
+.--------------------+------+------. 
+| Festplatte HDD     |   3  |   5  | 
+.--------------------+------+------.
+| Festplatte SSD     |   5  |  10  |
+.--------------------+------+------. 
+| SD-Speicherkarte   |  10  |  30  |
+.--------------------+------+------.
+| USB-Stick          |  10  |  30  |
+.--------------------+------+------. 
+| CD/DVD gebrannt    |   5  |  10  |
+.--------------------+------+------. 
+| CD/DVD gepresst    |  10  |  30  |
+.--------------------+------+------. 
+| Blu-ray            |  30  |  80  |
+.--------------------+------+------. 
+
+```
+
+<!-- class="flex-child-2" style="background: lightgray; max-height:400px" -->
+<img src="images\Lebensdauer.png">
+
+</section>
+
+****************
+
+{{2}}
+****************
+![img](/images/Lebensdauer-komplett.png)
+
+
+in Abhängigkeit von:
+
+* Temperatur
+* Feuchtigkeit
+* Beanspruchung
+* Lagerung
+****************
+
+## 3-2-1 Regel
+
+{{1-2}}
+****************
+
+<section class="flex-container">
+
 <!-- class="flex-child-1" style="min-width: 300px; max-height:500px" -->
 ``` ascii
 .--------------------.-------------.
@@ -228,22 +281,6 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 </section>
 
 ****************
-
-{{2}}
-****************
-![img](/images/Lebensdauer-komplett.png)
-
-
-in Abhängigkeit von:
-
-* Temperatur
-* Feuchtigkeit
-* Beanspruchung
-* Lagerung
-****************
-
-## 3-2-1 Regel
-
 
 Mindestens 3 Kopien der Daten 📝 📝 📝
 
