@@ -42,8 +42,6 @@ alert("Disclaimer: Please note that you are leaving the CAU net once you open th
 
 ## Ziele dieses Workshops 🎯
 
-<img src="/images/nachnutzung-fdm-zyklus_2022.png" alt="Goals today" width="200" align="right">
-
 Lernende können ...
 
 * ... allgemeine Anforderungen an Datenspeicherung benennen.
