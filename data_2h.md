@@ -27,7 +27,7 @@ alert("Disclaimer: Please note that you are leaving the CAU net once you open th
 </script>
 
 
-<center><img src="./images/fdm_lehre.png" alt="workshop, teaching" height="40%" width="40%"></center>
+<center><img src="./images/sharing_documents.png" alt="workshop, teaching" height="40%" width="40%"></center>
 
 
 > To see this document as an interactive LiaScript rendered version, click on the
