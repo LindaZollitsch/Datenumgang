@@ -239,45 +239,6 @@ in Abhängigkeit von:
 
 ## 3-2-1 Regel
 
-{{1-2}}
-****************
-
-<section class="flex-container">
-
-<!-- class="flex-child-1" style="min-width: 300px; max-height:500px" -->
-``` ascii
-.--------------------.-------------.
-| Speichermedium     | Lebensdauer |
-|                    |  in Jahren  |
-.--------------------.-------------. 
-
-.--------------------+------+------.
-| Externe Festplatte |   5  |  10  |
-.--------------------+------+------. 
-| Festplatte HDD     |   3  |   5  | 
-.--------------------+------+------.
-| Festplatte SSD     |   5  |  10  |
-.--------------------+------+------. 
-| SD-Speicherkarte   |  10  |  30  |
-.--------------------+------+------.
-| USB-Stick          |  10  |  30  |
-.--------------------+------+------. 
-| CD/DVD gebrannt    |   5  |  10  |
-.--------------------+------+------. 
-| CD/DVD gepresst    |  10  |  30  |
-.--------------------+------+------. 
-| Blu-ray            |  30  |  80  |
-.--------------------+------+------. 
-
-```
-
-<!-- class="flex-child-2" style="background: lightgray; min-width: 150px; max-height:350px" -->
-<img src="images\Lebensdauer.png">
-
-</section>
-
-****************
-
 Mindestens 3 Kopien der Daten 📝 📝 📝
 
 ... auf mindestens 2 unterschiedlichen Speichermedien 💾 💽
