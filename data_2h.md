@@ -228,8 +228,6 @@ https://www.trusted-cloud.de/cloud-service-suche.html
 
 {{2}}
 ****************
-![img](/images/Lebensdauer-komplett.png)
-
 
 in Abhängigkeit von:
 
