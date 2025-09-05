@@ -426,3 +426,207 @@ https://opendata.uni-kiel.de/content/index.xml
 
 https://opendata.schleswig-holstein.de/dataset 
 
+
+
+# Handling research data
+
+What is research data management?
+---
+****************
+
+{{1-3}}
+****************
+> ‘Research data management is an explicit process covering the creation and stewardship of research materials to enable their use for as long as they retain value.’
+>
+>[DCC Glossary](https://www.dcc.ac.uk/about/digital-curation/glossary#R)
+
+****************
+
+{{2-3}}
+****************
+> ‘Research Data Management (RDM) is the methodical handling of the information produced or re-used during the course of academic research.’
+>
+>[University of Edinburgh Research Data Service](https://www.ed.ac.uk/information-services/research-support/research-data-service/research-data-management)
+
+******************
+
+## Research data lifecycle
+
+<center>
+{{0-1}}
+************
+
+![RD-Lifecycle](images\FDM_Zyklus_klein_ohneText.jpg "Illustration: Cleo Michelsen, based on UK Data Service") <!-- width="500px" -->
+
+************
+</center>
+
+<div style="page-break-after: always;"></div>
+
+{{1-2}}
+************
+**Planning**:
+
+* How do you plan to create data?
+* Will data be reused? How is the data available?
+* Which data types, in terms of data formats (e.g. image data, text data or measurement data in tables) are created?
+* What volume of data can be expected?
+* What legal and ethical aspects need to be taken into account?
+* Who is responsible (for what)?
+* Which analyses are planned? What requirements must the data meet in order to be analysed as planned? What kind of software environment will you need?
+
+************
+
+{{2-3}}
+************
+**Collection and analysis**:
+
+* Which (digital) methods and tools (e.g. software) are required collect and safe the (raw) data?
+* What measures are taken to ensure high quality of the data?
+* What approaches are taken to document all your work in a comprehensible manner?
+* Which digital methods and tools (e.g. software) are required to read, use and analyse the data?
+* How and where will the data be stored during the project?
+* What is your back up strategy?
+* How will the security of sensitive data be guaranteed during the project (access and usage management)?
+
+************
+
+{{3-4}}
+************
+**Archiving & publication**:
+
+* What legal conditions need to be considered in regard of publishing your research data?
+* What ethical conditions need to be considered in regard of publishing your research data?
+* Are there any effects or restrictions to be expected with regard to publication or accessibility of the data?
+* How are usage and copyright aspects as well as ownership issues taken into account?
+* Are there any important scientific codes or professional standards that should be taken into account?
+
+************
+
+{{4-5}}
+************
+**Re-use**:
+
+* Which data is particularly suitable for re-use?
+* What criteria are used to select research data in order to make it available for re-use by others?
+* Do you plan to archive your data in a suitable infrastructure?
+* Are there embargo periods?
+* When can the research data expected to be used by third parties?
+
+************
+
+{{5}}
+************
+
+![RD-Lifecycle](images\FDM_Zyklus_klein_ohneText.jpg) <!-- width="300px" align="right" -->
+
+Individual work:
+---
+
+Think about your own PhD project and add keywords to the stations of the research data lifecycle that describe what steps and procedures at each station are relevant to your research data.
+
+Find a workspace at the [Miro-Board](https://miro.com/app/board/uXjVI5UWK7o=/?moveToWidget=3458764600483701115&cot=14)
+
+-> Does this research data lifecycle fit to your research project?
+
+-> Are there any deviations? If yes, please mark deviations.
+
+************
+
+
+## Data organisation
+### File and folder naming
+### General notes
+
+{{0-3}}
+*****************
+
+- **Never touch raw data! Always keep your raw data unchanged in a separate folder**.
+
+********************************************************************************
+
+{{1-3}}
+********************************************************************************
+
+- Try to find ‘speaking’ names for folders and files ➞ no ‘fantasy names’ 🦄, no random character strings
+
+- Develop a standardised scheme and a logical structure
+
+  - for both folder and file names.
+
+  - Folders in hierarchical order with the most important first.
+
+  - Limit yourself to a maximum of three folder levels, ensure a maximum path length of 256 characters.
+
+  - Keep your personal preferences in mind during development, e.g. for ___sorting!___
+
+********************************************************************************
+
+{{2-3}}
+********************************************************************************
+- Follow [***ISO 8601***](https://en.wikipedia.org/wiki/ISO_8601) for dates and times
+
+  - Date and time, e.g. YYYY-MM-DD-hh-mm-ss or YYYYMMDDhhmmss
+
+********************************************************************************
+
+{{3-4}}
+********************************************************************************
+
+- Always avoid spaces and all special characters (including special letters, such as german umlauts).
+
+  - The following characters in particular should **NOT** be used in folder or file names:
+
+    - less than: <
+
+    - greater than: >
+
+    - colon: :
+    
+    - double quotation mark: “
+    
+    - slash: /
+    
+    - backslash: \
+    
+    - vertical bar or pipe: |
+    
+    - question mark: ?
+    
+    - asterisk: \*
+
+  - The only unproblematic special characters in folder or file names are underscore (_) and hyphen/minus (-)
+
+********************************************************************************
+
+{{4-7}}
+********************************************************************************
+
+- Prefix consecutive numbers with a sufficient number of zeros (e.g. 001 for numbering from 1 to 100)
+
+********************************************************************************
+
+{{5-7}}
+********************************************************************************
+
+- Use only one dot per file name -> between the file name and format suffix (e.g. filename.txt)
+
+********************************************************************************
+
+{{6-7}}
+********************************************************************************
+
+- Upper and lower case is considered different by some file systems, but not by others.  
+
+********************************************************************************
+
+{{7}}
+********************************************************************************
+
+- ***Document*** your folder structures as well as the naming conventions and abbreviations used!
+
+  - Readme.md
+
+**********************************************************
+
+<div style="page-break-after: always;"></div>
