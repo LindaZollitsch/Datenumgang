@@ -30,6 +30,9 @@ alert("Disclaimer: Please note that you are leaving the CAU net once you open th
 <center><img src="./images/sharing_documents.png" alt="workshop, teaching" height="40%" width="40%"></center>
 
 
+handling research data
+
+
 > To see this document as an interactive LiaScript rendered version, click on the
 > following link/badge:
 >
@@ -273,17 +276,21 @@ Besondere Aufmerksamkeit bei sensiblen Daten:
 
 ## Zusammenfassung 🦉
 
-
+{{1}}
+****************
 **Risiken**❗️
 
 Technische Defekte, Katastrophen (Unwetter), Diebstahl, Vergesslichkeit...
 
+****************
 -----
-
+{{2}}
+****************
 **Strategien** 💡
 
 Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup, Sicherung wichtiger Daten in mindestens drei Kopien auf räumlich getrennten Datenträgern
 
+****************
 
 # Datenspeicherung in der CAU-Cloud ☁ 
 
