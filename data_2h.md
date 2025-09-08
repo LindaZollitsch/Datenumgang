@@ -394,27 +394,21 @@ Mehr zum FDM an der CAU finden Sie hier: https://www.fdm.uni-kiel.de/de
 
 # Quellen
 
-https://mediafix.de/die-haltbarkeit-der-speichermedien/
-
-https://forschungsdaten.info/themen/speichern-und-rechnen/datenspeicherung-und-die-lebensdauer-von-datentraegern/
-
-https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cloud-Computing-Sicherheitstipps/Cloud-Risiken-und-Sicherheitstipps/cloud-risiken-und-sicherheitstipps_node.html
-
-
-
-
 Biernacka, K., Buchholz, P., Danker, S. A., Dolzycka, D., Engelhardt, C., Helbig, K., Jacob, J., Neumann, J., Odebrecht, C., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wiljes, C., & Wuttke, U. (2021). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 4). Zenodo. https://doi.org/10.5281/zenodo.5773203 
 
 Biernacka, K., Dockhorn, R., Engelhardt, C., Helbig, K., Jacob, J., Kalová, T., Karsten, A., Meier, K., Mühlichen, A., Neumann, J., Petersen, B., Slowig, B., Trautwein-Bruns, U., Wilbrandt, J., & Wiljes, C. (2023). Train-the-Trainer-Konzept zum Thema Forschungsdatenmanagement (Version 5). Zenodo. https://doi.org/10.5281/zenodo.10122153
-
 
 Jaeger, Philipp, & Bode, Janice. (2021). Redet über die Daten! - Forschungsdatenmanagement und Hochschullehre in der Physik und darüber hinaus. Zenodo. https://doi.org/10.5281/zenodo.5168524
 
 Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) (Version 3). Zenodo. https://doi.org/10.5281/zenodo.15025246
 
+https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cloud-Computing-Sicherheitstipps/Cloud-Risiken-und-Sicherheitstipps/cloud-risiken-und-sicherheitstipps_node.html
+
 https://forschungsdaten.info/
 
 https://mantra.ed.ac.uk/
+
+https://mediafix.de/die-haltbarkeit-der-speichermedien/
 
 https://www.fdm.uni-hannover.de/fileadmin/fdm/Dokumente/Schulungsunterlagen/Schulungsunterlagen_FDM_VertiefungDatenorganisation_Folien.pdf
 
@@ -429,6 +423,48 @@ https://opendata.schleswig-holstein.de/dataset
 
 
 # Handling research data
+
+## Begriffsdefinition Forschungsdatenmanagement
+
+{{1}}
+********************************************************************************
+Das Portal **Forschungsdaten.info** definiert den Begriff **"Forschungsdatenmanagement"** folgendermaßen:
+
+> Forschungsdatenmanagement (FDM) umfasst die Prozesse der **Transformation**, **Selektion** und **Speicherung** von Forschungsdaten mit dem gemeinsamen **Ziel**, diese *langfristig* und *personenunabhängig* **zugänglich**, **nachnutzbar** und **nachprüfbar** zu halten.
+>
+>(*forschungsdaten.info, letzter Zugriff 29.11.2022*)
+
+********************************************************************************
+
+<div style="page-break-after: always;"></div>
+
+## Begriffsdefinition Forschungsdaten
+
+**Und was sind Forschungsdaten?**
+
+{{2}}
+********************************************************************************
+Die **DFG** definiert den Begriff **"Forschungsdaten"** folgendermaßen:
+
+> „Zu Forschungsdaten zählen u. a. Messdaten, Laborwerte, audiovisuelle Informationen, Texte, Surveydaten oder Beobachtungsdaten, methodische Testverfahren sowie Fragebögen. Korpora und Simulationen können ebenfalls zentrale Ergebnisse wissenschaftlicher Forschung darstellen und werden daher ebenfalls unter den Begriff Forschungsdaten gefasst. Da Forschungsdaten in einigen Fachbereichen auf der Analyse von Objekten basieren (z. B. Gewebe-, Material-, Gesteins-, Wasser- und Bodenproben, Prüfkörper, Installationen, Artefakte und Kunstgegenstände), muss der Umgang mit diesen ebenso sorgfältig sein und eine fachlich adäquate Nachnutzungsmöglichkeit, wann immer sinnvoll und möglich, mitgedacht werden. Ähnliches gilt, wenn Software für die Entstehung oder Verarbeitung von Forschungsdaten erforderlich ist.“
+>
+> (*DFG 2021*)
+
+********************************************************************************
+
+{{3}}
+********************************************************************************
+
+Etwas weniger kompliziert definierte das PrePARe Projekt der Camebridge University den Begriff **Forschungsdaten** als:
+
+> “Any any information you use in your research.”
+>
+> (*University of Camebridge PrePARe Project*)
+
+********************************************************************************
+<div style="page-break-after: always;"></div>
+
+
 
 What is research data management?
 ---
@@ -452,85 +488,87 @@ What is research data management?
 
 ## Research data lifecycle
 
-<center>
-{{0-1}}
-************
+## Forschungsdatenlebenszyklus
+<!---
+Lernende können	Phasen des Forschungsdatenlebenszyklus	benennen. (LZ-ID: 01_005_0079)
+--->
 
-![RD-Lifecycle](images\FDM_Zyklus_klein_ohneText.jpg "Illustration: Cleo Michelsen, based on UK Data Service") <!-- width="500px" -->
+<img src="/images/FDM_Zyklus_klein_ohneText.jpg" width="350" align="right">
 
-************
-</center>
+<P><SMALL>Illustration: Cleo Michelsen, basierend auf dem Forschungsdatenlebenszyklus des UK Data Service</SMALL></P>
 
 <div style="page-break-after: always;"></div>
 
-{{1-2}}
-************
-**Planning**:
+{{1}}
+********************************************************************************
+<img src="/images/Planung_fdm-zyklus_2022.png" width="150" align="right">
 
-* How do you plan to create data?
-* Will data be reused? How is the data available?
-* Which data types, in terms of data formats (e.g. image data, text data or measurement data in tables) are created?
-* What volume of data can be expected?
-* What legal and ethical aspects need to be taken into account?
-* Who is responsible (for what)?
-* Which analyses are planned? What requirements must the data meet in order to be analysed as planned? What kind of software environment will you need?
+**Planung**:
 
-************
+* Auf welche Weise entstehen neue Daten?
+* Werden Daten wiederverwendet?
+* Welche Datentypen, im Sinne von Datenformaten (z. B. Bilddaten, Textdaten oder Messdaten in Tabellen) entstehen?
+* Welche Analysen sind geplant?
+* Welches Datenvolumen ist zu erwarten?
+* Welche rechtlichen und ethischen Aspekte müssen berücksichtigt werden?
+* Wer ist verantwortlich?
 
-{{2-3}}
-************
-**Collection and analysis**:
-
-* Which (digital) methods and tools (e.g. software) are required collect and safe the (raw) data?
-* What measures are taken to ensure high quality of the data?
-* What approaches are taken to document all your work in a comprehensible manner?
-* Which digital methods and tools (e.g. software) are required to read, use and analyse the data?
-* How and where will the data be stored during the project?
-* What is your back up strategy?
-* How will the security of sensitive data be guaranteed during the project (access and usage management)?
-
-************
-
-{{3-4}}
-************
-**Archiving & publication**:
-
-* What legal conditions need to be considered in regard of publishing your research data?
-* What ethical conditions need to be considered in regard of publishing your research data?
-* Are there any effects or restrictions to be expected with regard to publication or accessibility of the data?
-* How are usage and copyright aspects as well as ownership issues taken into account?
-* Are there any important scientific codes or professional standards that should be taken into account?
-
-************
-
-{{4-5}}
-************
-**Re-use**:
-
-* Which data is particularly suitable for re-use?
-* What criteria are used to select research data in order to make it available for re-use by others?
-* Do you plan to archive your data in a suitable infrastructure?
-* Are there embargo periods?
-* When can the research data expected to be used by third parties?
-
-************
-
-{{5}}
-************
-
-![RD-Lifecycle](images\FDM_Zyklus_klein_ohneText.jpg) <!-- width="300px" align="right" -->
-
-Individual work:
 ---
 
-Think about your own PhD project and add keywords to the stations of the research data lifecycle that describe what steps and procedures at each station are relevant to your research data.
+********************************************************************************
 
-Find a workspace at the [Miro-Board](https://miro.com/app/board/uXjVI5UWK7o=/?moveToWidget=3458764600483701115&cot=14)
+<div style="page-break-after: always;"></div>
 
--> Does this research data lifecycle fit to your research project?
+{{2}}
+********************************************************************************
+<img src="/images/erhebung-analyse_fdm-zyklus_2022.png" width="150" align="right">
 
--> Are there any deviations? If yes, please mark deviations.
+**Erhebung und Analyse**:
 
+* Welche Ansätze werden verfolgt, um die Daten nachvollziehbar zu dokumentieren?
+* Welche Maßnahmen werden getroffen, um eine hohe Qualität der Daten zu gewährleisten?
+* Welche digitalen Methoden und Werkzeuge (z. B. Software) sind zur Nutzung und Analyse der Daten erforderlich?
+* Auf welche Weise werden die Daten während der Projektlaufzeit gespeichert und gesichert?
+* Wie wird die Sicherheit sensibler Daten während der Projektlaufzeit gewährleistet (Zugriffs- und Nutzungsverwaltung)?
+
+********************************************************************************
+---
+
+<div style="page-break-after: always;"></div>
+
+{{3}}
+********************************************************************************
+
+<img src="/images/veroeffentl-archiv_fdm-zyklus_2022.png" width="150" align="right">
+
+**Archivierung & Veröffentlichung**:
+
+* Welche rechtlichen Besonderheiten bestehen im Zusammenhang mit dem Umgang mit Forschungsdaten in dem Forschungsprojekt?
+* Sind Auswirkungen oder Einschränkungen in Bezug auf die spätere Veröffentlichung bzw. Zugänglichkeit zu erwarten?
+* Auf welche Weise werden nutzungs- und urheberrechtliche Aspekte sowie Eigentumsfragen berücksichtigt?
+* Existieren wichtige wissenschaftliche Kodizes bzw. fachliche Normen, die Berücksichtigung finden sollten?
+
+---
+********************************************************************************
+
+<div style="page-break-after: always;"></div>
+
+{{4}}
+********************************************************************************
+
+<img src="/images/nachnutzung-fdm-zyklus_2022.png" width="150" align="right">
+
+**Nachnutzung**:
+
+* Welche Daten bieten sich für eine Nachnutzung besonders an?
+* Nach welchen Kriterien werden Forschungsdaten ausgewählt, um diese für die Nachnutzung durch andere zur Verfügung zu stellen?
+* Planen Sie die Archivierung Ihrer Daten in einer geeigneten Infrastruktur?
+* Falls ja, wie und wo? Gibt es Sperrfristen?
+* Wann sind die Forschungsdaten für Dritte nutzbar?
+
+********************************************************************************
+
+<div style="page-break-after: always;"></div>
 ************
 
 
