@@ -536,31 +536,6 @@ Etwas weniger kompliziert definierte das PrePARe Projekt der Camebridge Universi
 
 
 
-What is research data management?
----
-****************
-
-{{1-3}}
-****************
-> ‘Research data management is an explicit process covering the creation and stewardship of research materials to enable their use for as long as they retain value.’
->
->[DCC Glossary](https://www.dcc.ac.uk/about/digital-curation/glossary#R)
-
-****************
-
-{{2-3}}
-****************
-> ‘Research Data Management (RDM) is the methodical handling of the information produced or re-used during the course of academic research.’
->
->[University of Edinburgh Research Data Service](https://www.ed.ac.uk/information-services/research-support/research-data-service/research-data-management)
-
-******************
-
-## Research data lifecycle
-
-
-
-
 ## Data organisation
 ### File and folder naming
 ### General notes
