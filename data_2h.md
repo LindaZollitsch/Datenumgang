@@ -417,7 +417,8 @@ Speicherung auf institutionellen Servern mit automatischem regelmäßigem Backup
 
 {{1-2}}
 ****************
-![Open-Source](/images/open-source.png)
+
+<img src="/images/open-source.png" width="350" align="right">
 
 * Digitale Souveränität
 
