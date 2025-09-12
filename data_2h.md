@@ -61,7 +61,6 @@ Lernende können ...
 
 * Datenspeicherung in der CAU-Cloud
 
-* Daten mit anderen teilen (während der Arbeit daran)
 
 # Forschungsdatenlebenszyklus
 <!---
